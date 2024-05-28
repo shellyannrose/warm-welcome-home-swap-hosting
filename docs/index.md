@@ -13,6 +13,7 @@ To ensure house exchanges go smoothly, the host must take care to track the upco
 * Who is coming; this includes the names and total number of guests
 * When a guest arrives and leaves
 * What tasks the host must complete before a guest arrives
+
 Using spreadsheets or written notes to track this information creates more problems than they solve.
 
 ## The solution: a service for hosts to manage their guest stays
