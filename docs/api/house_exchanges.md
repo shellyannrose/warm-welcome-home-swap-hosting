@@ -33,13 +33,13 @@ Sample `house-exchanges` resource
 
 | Property name | Type | Description |
 | ------------- | ----------- | ----------- |
-| `user_id` | Number | Refers to the host id in the users resource|
-| `arrival-date` | String; update not supported |The [ISO 8601](https://en.wikipedia.org/wiki/ISO_8601) format of the date and time the guest arrives |
-| `departure-date` | String; ; update not supported | The [ISO 8601](https://en.wikipedia.org/wiki/ISO_8601) format of the date and time the guest leaves|
+| `user_id` | Number | Refers to the host id in the users resource |
+| `arrival-date` | String | The [ISO 8601](https://en.wikipedia.org/wiki/ISO_8601) format of the date and time the guest arrives. Update not supported |
+| `departure-date` | String | The [ISO 8601](https://en.wikipedia.org/wiki/ISO_8601) format of the date and time the guest leaves. Update not supported |
 | `guest-names` | String |The names of all the guests |
-| `last-name-primary` | String; update not supported |The last name of the point of contact guest |
+| `last-name-primary` | String |The last name of the point of contact guest. Update not supported |
 | `number-of-guests` | Number |The total number of guests expected |
-| `type-of-exchange` | String; optional and update not supported |Indicates if swap is reciprocal or for guest points |
+| `type-of-exchange` | String |Indicates if swap is reciprocal or for guest points.Optional and update not supported |
 | `id` | Number | Service-generated unique ID for the house-exchange |
 
 ## Operations
@@ -75,4 +75,3 @@ The `house-exchanges` resource supports the operations below.
 ## DELETE (DELETE)
 
 * [Remove house exchange guest from the service by id](tbd)
-
