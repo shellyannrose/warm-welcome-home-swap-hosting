@@ -32,14 +32,13 @@ Sample `prep-checks` resource
 
 | Property name | Type | Description |
 | ------------- | ----------- | ----------- |
-| `user_id` | Number | Refers to the host id in the users resource|
-| `arrival-date` | String; change not supported |The [ISO 8601](https://en.wikipedia.org/wiki/ISO_8601) format of the date and time the guest arrives |
-| `departure-date` | String; ; change not supported | The [ISO 8601](https://en.wikipedia.org/wiki/ISO_8601) format of the date and time the guest leaves|
-| `guest-names` | String |The names of all the guests |
-| `last-name-primary` | String;; change not supported |The last name of the point of contact guest |
-| `number-of-guests` | Number |The total number of guests expected |
-| `type-of-exchange` | String; optional and change not supported |Indicates if swap is reciprocal or for guest points |
-| `id` | Number | Service-generated unique ID for the house-exchange |
+| `user_id` | Number | Refers to the host id in the users resource |
+| `exchange_id` | Number |Refers to the house-exchanges id in the house-exchanges resource |
+| `title` | String |The name of the task |
+| `room/area` | String|The part of the home that requires the task |
+| `due-date` | String | The date the host chooses to finish the task |
+| `warning` | Number |The number of minutes relative to the due date to alert the host to finish the task. This is normally a negative number to alert the host before the due date. |
+| `id` | Number | Service-generated unique ID for the prep-check task |
 
 ## Operations
 
@@ -47,26 +46,41 @@ The `prep-checks` resource supports the operations below.
 
 ## CREATE (POST)
 
-* [Add details for a new house exchange guest](tbd)
+* [Add a task to prepare for a guest](tbd)
 
 ## READ (GET)
 
-* [Get all house-exchanges](tbd)
-* [Get house-exchanges by id](tbd)
-* [Get all guest-names by house-exchanges id](tbd)
-* [Get all arrival-dates](tbd)
-* [Get all departure-dates](tbd)
-* [Get last-name-primary by house-exchanges id](tbd)
-* [Get guest by departure-date](tbd)
-* [Get guest by arrival-date](tbd)
-* [Get number-of-guests by house-exchanges id](tbd)
-* [Get type-of-exchange by house-exchanges id](tbd)
+* [Get all prep-check tasks](tbd)
+* [Get prep-check task by id](tbd)
+* [Get prep-check task by exchange_id](tbd)
+* [Get all prep-check titles](tbd)
+* [Get prep-check title by id](tbd)
+* [Get prep-check title by exchange_id](tbd)
+* [Get all room/area info](tbd)
+* [Get room/area info by id](tbd)
+* [Get room/area info by exchange_id](tbd)
+* [Get all due dates](tbd)
+* [Get a due date by id](tbd)
+* [Get a due date by exchange_id](tbd)
+* [Get all warning numbers](tbd)
+* [Get a warning number by id](tbd)
+* [Get a warning number by exchange_id](tbd)
 
 ## UPDATE (PUT/PATCH)
 
-* [Update guest-names house-exchanges id](tbd)
-* [Update number-of-guests house-exchanges id](tbd)
+* [Update a title by id](tbd)
+* [Update a title by exchange_id](tbd)
+* [Update a room/area by id](tbd)
+* [Update a room/area by exchange_id](tbd)
+* [Update a due date by id](tbd)
+* [Update a due date by exchange_id](tbd)
+* [Update a warning by id](tbd)
+* [Update a warning by exchange_id](tbd)
 
 ## DELETE (DELETE)
 
-* [Remove house exchange guest from service by house-exchanges id](tbd)
+* [Remove all prep-check tasks](tbd)
+* [Remove a prep-check task by id](tbd)
+* [Remove all prep-check tasks by exchange_id](tbd)
+* [Remove a prep-check task by exchange_id](tbd)
+

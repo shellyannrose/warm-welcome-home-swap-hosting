@@ -59,9 +59,9 @@ Add (POST) a home task for a specific guest
 
 Learn how to do common tasks within the service.
 
+[Add a new host](tutorials/create-add-%20new-host.md) to the service
+=======
 TBD setup
-
-After your system is ready, these tutorials show you how to perform common tasks.
 
 ## API reference docs
 

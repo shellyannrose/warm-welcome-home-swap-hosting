@@ -1,0 +1,1 @@
+Add a new host to the service
