@@ -75,3 +75,4 @@ The `house-exchanges` resource supports the operations below.
 ## DELETE (DELETE)
 
 * [Remove house exchange guest from the service by id](tbd)
+
