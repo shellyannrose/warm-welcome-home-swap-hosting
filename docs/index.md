@@ -28,8 +28,8 @@ For a hassle-free solution, hosts can use the House Exchange Haven service. It i
 There are three resources:
 
 * [Users](api/users.md) – This contains basic information about the host subscriber, like name and email address.
-* House-exchanges – Once the host has a confirmed home swap, the host adds details about the guest. This resource stores guest details, like arrival date, number of guests, guest points usage, and so on.
-* Prep-checks – The host then creates tasks for making the home ready. This includes cleaning rooms or buying utensils and food. This resource stores these tasks and alerts the host about a task’s due date.
+* [House-exchanges](api/house_exchanges.md) – Once the host has a confirmed home swap, the host adds details about the guest. This resource stores guest details, like arrival date, number of guests, guest points usage, and so on.
+* [Prep-checks](api/prep_checks.md) – The host then creates tasks for making the home ready. This includes cleaning rooms or buying utensils and food. This resource stores these tasks and alerts the host about a task’s due date.
 
 ## App integrations
 
