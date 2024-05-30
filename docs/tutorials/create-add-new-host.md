@@ -1,6 +1,3 @@
----
-layout: page
----
 # Add a host to the service
 
 This creates a record of a new host who subscribes to the service.
