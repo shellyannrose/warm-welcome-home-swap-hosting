@@ -1,8 +1,4 @@
----
-layout: page
----
-
-# The House Exchange Haven API
+# The Gracious Host API
 
 World travelers now have the option to live like locals. Home exchange is one way to do this, for a fraction of the housing cost. Unlike hotels or rentals, travelers swap homes with people who live in a place they want to visit. For example, a woman from Ireland longs to explore the Yukon. She trades homes with a Canadian who loves Yeats.
 
@@ -18,7 +14,7 @@ Using spreadsheets or written notes to track this information creates more probl
 
 ## The solution: a service for hosts to manage their guest stays
 
-For a hassle-free solution, hosts can use the House Exchange Haven service. It is a cloud-based solution that has an API interface that is easy to use. It:
+For a hassle-free solution, hosts can use the Gracious Host service. It is a cloud-based solution that has an API interface that is easy to use. It:
 
 * Simplifies the tracking of dates, times, tasks, and people
 * Ensures that hosts are well-prepared for their guests
