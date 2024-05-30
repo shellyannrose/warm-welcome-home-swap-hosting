@@ -40,7 +40,7 @@ The `users` resource supports the operations below.
 
 ## CREATE (POST)
 
-* [Add new host to service](tbd)
+* [Add new host to service](../tutorials/create-add-%20new-host.md)
 
 ## READ (GET)
 
