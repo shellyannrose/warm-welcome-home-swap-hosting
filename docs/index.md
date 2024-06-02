@@ -1,4 +1,6 @@
-# The Gracious Host API
+
+# The Gracious Host Service
+
 
 World travelers now have the option to live like locals. Home exchange is one way to do this, for a fraction of the housing cost. Unlike hotels or rentals, travelers swap homes with people who live in a place they want to visit. For example, a woman from Ireland longs to explore the Yukon. She trades homes with a Canadian who loves Yeats.
 
@@ -56,7 +58,8 @@ Add (POST) a home task for a specific guest
 
 Learn how to do common tasks within the service.
 
-### [Add a new host](tutorials/create-add-new-host.md) to the service
+
+### [Add a new host](tutorials/tutorial-add-new-host.md) to the service
 
 TBD setup
 
