@@ -40,7 +40,9 @@ The `users` resource supports the operations below.
 
 ## CREATE (POST)
 
+
 * [Add new host to service](../api/users_CRUDref/create-add-new-host.md)
+
 
 ## READ (GET)
 
