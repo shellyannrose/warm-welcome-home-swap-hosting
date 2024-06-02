@@ -40,22 +40,19 @@ The `users` resource supports the operations below.
 
 ## CREATE (POST)
 
-* [Add new host to service](/tutorials/create-add-new-host.md)
+* [Add new host to service](../api/users_CRUDref/create-add-new-host.md)
 
 ## READ (GET)
 
-* [Get all hosts](tbd)
-* [Get host by id](tbd)
-* [Get host by last_name](tbd)
-* [Get host by first_name](tbd)
-* [Get host by email](tbd)
+* [Get all hosts](../api/users_CRUDref/get-all-hosts.md)
+* [Get host by id](../api/users_CRUDref/get-host-by-id.md)
+* [Get host by last name](../api/users_CRUDref/get-host-by-last-name.md)
 
 ## UPDATE (PUT/PATCH)
 
-* [Update a host's last name](tbd)
-* [Update a host's first name](tbd)
-* [Update a host's email](tbd)
+* [Update (PUT) a host's first name by id](../api/users_CRUDref/update-put-host-firstname-by-id.md)
+* [Update (PATCH) a host's email by id](../api/users_CRUDref/update-patch-host-email-by-id.md)
 
 ## DELETE (DELETE)
 
-* [Remove host from service by id](tbd)
+* [Remove host from service by id](../api/users_CRUDref/delete-host-by-id.md)
