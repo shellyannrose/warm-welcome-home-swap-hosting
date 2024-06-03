@@ -31,11 +31,11 @@ Use the host's `user_id` and the house-exchanges `id` and change the guest names
     {
       
       "arrival-date": "2024-09-05T13:00",
-     "departure-date": "2024-09-13T12:00", 
+      "departure-date": "2024-09-13T12:00", 
       "guest-names": "John and Marlena",
       "last-name-primary": "Jones",
       "number-of-guests": "3",
-     "type-of-exchange": "Reciprocal",  
+      "type-of-exchange": "Reciprocal",  
     }
 ]
 ```
@@ -49,7 +49,7 @@ The following example shows the response if the host's `user_id` is 1 and the ho
     {
       "user_id": 1,
       "arrival-date": "2024-09-05T13:00",
-     "departure-date": "2024-09-13T12:00", 
+      "departure-date": "2024-09-13T12:00", 
       "guest-names": "John and Marlena",
       "last-name-primary": "Jones",
       "number-of-guests": "3",
@@ -59,7 +59,7 @@ The following example shows the response if the host's `user_id` is 1 and the ho
 ]
 ```
 
-**Note** You can use a similar request to update `number-of-guests`. In this resource, you can only change `guest-names` and `number-of-guests`.
+**Note** You can use a similar request to update `number-of-guests`. Just replace the parameter in the curly braces {} of the URL in the PUT request. In this resource, you can only change `guest-names` and `number-of-guests`.
 
 ## Return status
 

@@ -40,9 +40,7 @@ The `users` resource supports the operations below.
 
 ## CREATE (POST)
 
-
 * [Add new host to service](../api/users_CRUDref/create-add-new-host.md)
-
 
 ## READ (GET)
 
@@ -52,8 +50,8 @@ The `users` resource supports the operations below.
 
 ## UPDATE (PUT/PATCH)
 
-* [Update (PUT) a host's first name by id](../api/users_CRUDref/update-put-host-firstname-by-id.md)
 * [Update (PATCH) a host's email by id](../api/users_CRUDref/update-patch-host-email-by-id.md)
+* [Update (PUT) a host's first name by id](../api/users_CRUDref/update-put-host-firstname-by-id.md)
 
 ## DELETE (DELETE)
 
