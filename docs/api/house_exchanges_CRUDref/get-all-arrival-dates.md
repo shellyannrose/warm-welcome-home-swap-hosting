@@ -31,7 +31,8 @@ The following example shows the response for a host whose `user_id` is 1.
       "user_id": 1,
       "arrival-date": "2024-08-12T17:00"
     },
- {
+    
+    {
       "user_id": 1,
       "arrival-date": "2024-09-05T13:00"
     }

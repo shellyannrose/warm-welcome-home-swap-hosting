@@ -53,7 +53,7 @@ The following example shows the response if the host's `user_id` is 2 and the ho
 ]
 ```
 
-**Note** You can use a similar request to update `guest-names`. In this resource, you can only change `guest-names` and `number-of-guests`.
+**Note** You can use a similar request to update `guest-names`. Just replace the parameter in the curly braces {} of the URL in the PATCH request. In this resource, you can only change `guest-names` and `number-of-guests`.
 
 ## Return status
 
