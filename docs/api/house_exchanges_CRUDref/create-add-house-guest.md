@@ -1,19 +1,19 @@
 # Add a house guest to the host's account
 
-This creates a record of a new house guest for a specific host `user_id`.
+This creates a record of a new house guest for a specific host's `host_id`.
 
 ## URL
 
 ```shell
 
-{POST}{server_url}/house-exchanges/{user_id}
+{POST}{server_url}/guests/{host_id}
 ```
 
 ## Parameters
 
 | Property name | Type | Description |
 | ------------- | ----------- | ----------- |
-| `user_id` | Number | Refers to the host id in the users resource |
+| `host_id` | Number | Refers to the host id in the hosts resource |
 | `arrival-date` | String | The [ISO 8601](https://en.wikipedia.org/wiki/ISO_8601) format of the date and time the guest arrives. Update not supported |
 | `departure-date` | String | The [ISO 8601](https://en.wikipedia.org/wiki/ISO_8601) format of the date and time the guest leaves. Update not supported |
 | `guest-names` | String |The names of all the guests |
@@ -23,14 +23,16 @@ This creates a record of a new house guest for a specific host `user_id`.
 
 ## Request headers
 
-None
+| Key | Value |
+|---|---|
+| Content-Type | application/json |
 
 ## Request body
 
 ```js
 [
    {
-      "user_id": 1,
+      "host_id": 1,
       "arrival-date": "2024-09-05T13:00",
       "departure-date": "2024-09-13T12:00", 
       "guest-names": "Sarah and John",
@@ -44,12 +46,12 @@ None
 
 ## Return body
 
-The following example shows the response for a host whose user_id value is 1. The information should be the same as what you placed in the request body. The response should include the new house exchange's service-generated id.
+The following example shows the response for a host whose `host_id` is 1. The information should be the same as what you placed in the request body. The response should include a new service-generated id for the guest.
 
 ```js
 [
      {
-      "user_id": 1,
+      "host_id": 1,
       "arrival-date": "2024-09-05T13:00",
       "departure-date": "2024-09-13T12:00", 
       "guest-names": "Sarah and John",
@@ -57,7 +59,7 @@ The following example shows the response for a host whose user_id value is 1. Th
       "number-of-guests ": "3",
       "type-of-exchange ": "Reciprocal",  
       "id": 2
-     },
+     }
 ]
 ```
 

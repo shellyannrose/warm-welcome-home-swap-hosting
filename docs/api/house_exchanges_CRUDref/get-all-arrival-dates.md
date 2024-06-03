@@ -6,7 +6,7 @@ Get a list of all arrival dates for all the host's guests.
 
 ```shell
 
-{GET}{server_url}/house-exchanges/{user_id}/arrival-date
+{GET}{server_url}/guests/{host_id}/arrival-date
 ```
 
 ## Parameters
@@ -23,23 +23,23 @@ None
 
 ## Return body
 
-The following example shows the response for a host whose `user_id` is 1.
+The following example shows the response for a host whose `host_id` is 1.
 
 ```js
 [
     {
-      "user_id": 1,
+      "host_id": 1,
       "arrival-date": "2024-08-12T17:00"
     },
     
     {
-      "user_id": 1,
+      "host_id": 1,
       "arrival-date": "2024-09-05T13:00"
     }
   ]
 ```
 
-**Note** You can use a similar request to find all the `departure-date` values. Just replace the parameter in the curly braces {} at the end of the URL in the GET request
+**Note** You can use a request like this to find all the `departure-date` values for any host. To do that, change the parameter in the curly braces {} after the resource name in the request URL. Then change the final parameter after the forward slash in the URL.
 
 ## Return status
 

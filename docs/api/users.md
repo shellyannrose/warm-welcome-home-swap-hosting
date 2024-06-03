@@ -1,21 +1,21 @@
 ---
 layout: page
 ---
-# `users` resource
+# `hosts` resource
 
 Base endpoint
 
 ```shell
-{server_url}/users
+{server_url}/hosts
 ```
 
-Contains information about the users (hosts) of the service. To use the service, the host must register for it.
+Contains information about the hosts who are subscribed to the service. To use the service, a host must register for it.
 
-**Note** All properties are required, unless identfied as optional.
+**Note** All properties are required, unless identified as optional.
 
 ## Resource properties
 
-Sample `users` resource
+Sample `hosts` resource
 
 ```js
 
@@ -30,13 +30,13 @@ Sample `users` resource
 | Property name | Type | Description |
 | ------------- | ----------- | ----------- |
 | `id` | Number | Service-generated unique ID for the host |
-| `last_name` | String | Host’s last name |
-| `first_name` | String | Host’s first name|
-| `email` | String |Host’s email address |
+| `last_name` | String | The host's last name |
+| `first_name` | String | The host's first name|
+| `email` | String | The host's email address |
 
 ## Operations
 
-The `users` resource supports the operations below.
+The `hosts` resource supports the operations below.
 
 ## CREATE (POST)
 
