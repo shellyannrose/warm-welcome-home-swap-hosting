@@ -40,7 +40,7 @@ Sample `house-exchanges` resource
 | `last-name-primary` | String |The last name of the point of contact guest. Update not supported |
 | `number-of-guests` | Number |The total number of guests expected |
 | `type-of-exchange` | String |Indicates if swap is reciprocal or for guest points.Optional and update not supported |
-| `id` | Number | Service-generated unique ID for the house-exchange |
+| `id` | Number | Service-generated unique ID for the house exchange |
 
 ## Operations
 

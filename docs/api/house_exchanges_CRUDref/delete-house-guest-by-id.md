@@ -17,7 +17,7 @@ Use the host's `user_id` and the house guest's `id` and remove the guest from th
 | Property name | Type | Description |
 | ------------- | ----------- | ----------- |
 | `user_id` | Number | Refers to the host id in the users resource |
-| `id` | Number | Service-generated unique ID for the house guest |
+| `id` | Number | Service-generated unique ID for the house exchange|
 
 ## Request headers
 

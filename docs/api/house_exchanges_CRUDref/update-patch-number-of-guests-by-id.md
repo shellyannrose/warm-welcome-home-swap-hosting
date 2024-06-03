@@ -14,7 +14,7 @@ Use the host's `user_id` and the house-exchanges `id` and change the number of g
 | Property name | Type | Description |
 | ------------- | ----------- | ----------- |
 | `user_id` | Number | Refers to the host id in the users resource |
-| `id` | Number | Service-generated unique ID for the host |
+| `id` | Number | Service-generated unique ID for the house exchange |
 
 ## Request headers
 
