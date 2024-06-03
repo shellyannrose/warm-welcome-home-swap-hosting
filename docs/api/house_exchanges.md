@@ -48,30 +48,20 @@ The `house-exchanges` resource supports the operations below.
 
 ## CREATE (POST)
 
-* [Add details for a new house exchange guest](tbd)
+* [Add details for a new house exchange guest](../api/house_exchanges_CRUDref/create-add-house-guest.md)
 
 ## READ (GET)
 
-* [Get all house-exchanges](tbd)
-* [Get house-exchanges by id](tbd)
-* [Get all guest-names by id](tbd)
-* [Get all arrival-dates](tbd)
-* [Get arrival-date by id](tbd)
-* [Get all departure-dates](tbd)
-* [Get departure-date by id](tbd)
-* [Get last-name-primary by id](tbd)
-* [Get guest by departure-date](tbd)
-* [Get guest by arrival-date](tbd)
-* [Get number-of-guests by id](tbd)
-* [Get type-of-exchange by id](tbd)
-* [Get all guest points type-of-exchange](tbd)
-* [Get all reciprocal type-of-exchange](tbd)
+* [Get all house guests](../api/house_exchanges_CRUDref/get-all-house-guests.md)
+* [Get all guest names by id](../api/house_exchanges_CRUDref/get-all-guest-names-by-id.md)
+* [Get all arrival dates](../api/house_exchanges_CRUDref/get-all-arrival-dates.md)
+* [Get all reciprocal house swaps](../api/house_exchanges_CRUDref/get-all-reciprocal-house-swaps.md)
 
-## UPDATE (PUT/PATCH)
+## UPDATE (PATCH/PUT)
 
-* [Update guest-names by id](tbd)
-* [Update number-of-guests by id](tbd)
+* [Update (PATCH) number of guests by id](../api/house_exchanges_CRUDref/update-patch-number-of-guests-by-id.md)
+* [Update (PUT) guest names by id](../api/house_exchanges_CRUDref/update-put-guest-names-by-id.md)
 
 ## DELETE (DELETE)
 
-* [Remove house exchange guest from the service by id](tbd)
+* [Remove house exchange guest from a host's account by id](../api/house_exchanges_CRUDref/delete-house-guest-by-id.md)
