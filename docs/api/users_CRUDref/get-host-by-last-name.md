@@ -38,7 +38,7 @@ The following example shows the response for all hosts whose `last_name` paramet
 ]
 ```
 
-**Note** You can use a similar request to find a host by the `first_name,` `email,` and `id` parameters. Just replace the value in the curly braces {} at the end of the URL in the GET request.
+**Note** You can use a similar request to find a host by  `first_name,` `email,` and `id`. Just replace the parameter in the curly braces {} at the end of the URL in the GET request.
 
 ## Return status
 

@@ -48,7 +48,7 @@ The following example shows the response if the `id` parameter value is 4.
 ]
 ```
 
-**Note** You can use a similar request to update a host's `first_name` and `last_name`.
+**Note** You can use a similar request to update a host's `first_name` and `last_name`. Just replace the parameter in the curly braces {} at the end of the URL in the PATCH request.
 
 ## Return status
 

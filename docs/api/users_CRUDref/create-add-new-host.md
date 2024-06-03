@@ -36,7 +36,7 @@ None
 
 ## Return body
 
-The following example shows the response. The information should be the same as what you placed in the request body. The response should include the new host's service-generate id.
+The following example shows the response. The information should be the same as what you placed in the request body. The response should include the new host's service-generated id.
 
 ```js
 [

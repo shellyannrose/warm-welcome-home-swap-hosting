@@ -29,11 +29,11 @@
     {
       "user_id": 1,
       "arrival-date": "2024-08-12T17:00",
-	  "departure-date": "2024-08-20T12:00", 
+	    "departure-date": "2024-08-20T12:00", 
       "guest-names": "Bill and Katie",
       "last-name-primary": "Collison",
-      "number-of-guests ": "5",
-	  "type-of-exchange ": "Guest Points",  
+      "number-of-guests": "5",
+	    "type-of-exchange": "Guest Points",  
       "id": 1
     },
  {
@@ -42,8 +42,8 @@
 	  "departure-date": "2024-09-13T12:00", 
       "guest-names": "Sarah and John",
       "last-name-primary": "Jones",
-      "number-of-guests ": "3",
-	  "type-of-exchange ": "Reciprocal",  
+      "number-of-guests": "3",
+	  "type-of-exchange": "Reciprocal",  
       "id": 2
     },
   {
@@ -53,7 +53,7 @@
       "guest-names": "Pat",
       "last-name-primary": "Brent",
       "number-of-guests ": "2",
-	  "type-of-exchange ": "Guest Points",  
+	  "type-of-exchange": "Guest Points",  
       "id": 3
     },
  {
@@ -63,7 +63,7 @@
       "guest-names": "Peter and Anna",
       "last-name-primary": "Stapleton",
       "number-of-guests ": "6",
-	  "type-of-exchange ": "Reciprocal",  
+	  "type-of-exchange": "Reciprocal",  
       "id": 4
     }
   ],
