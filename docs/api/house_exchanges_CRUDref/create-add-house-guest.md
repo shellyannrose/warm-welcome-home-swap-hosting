@@ -44,7 +44,7 @@ None
 
 ## Return body
 
-The following example shows the response for a host whose user_id value is 1. The information should be the same as what you placed in the request body. The response should include the new house guest's service-generated id.
+The following example shows the response for a host whose user_id value is 1. The information should be the same as what you placed in the request body. The response should include the new house exchange's service-generated id.
 
 ```js
 [

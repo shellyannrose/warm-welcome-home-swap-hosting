@@ -1,6 +1,6 @@
 # Find all guest names for a specific guest
 
-Use the host's `user_id`, the house-exchanges `id`, and `guest-names` to get a list all the guests' names.
+Use the host's `user_id`, the house-exchanges `id`, and `guest-names` to get a list of all the guests' names.
 
 ## URL
 
@@ -14,7 +14,7 @@ Use the host's `user_id`, the house-exchanges `id`, and `guest-names` to get a l
 | Property name | Type | Description |
 | ------------- | ----------- | ----------- |
 | `user_id` | Number | Refers to the host id in the users resource |
-| `id` | Number | Service-generated unique ID for the house guest |
+| `id` | Number | Service-generated unique ID for the house exchange |
 
 ## Request headers
 
