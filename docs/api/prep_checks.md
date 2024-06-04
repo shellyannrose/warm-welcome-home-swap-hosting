@@ -73,4 +73,4 @@ The `prep-checks` resource supports the operations below.
 
 ## DELETE (DELETE)
 
-* [Remove a task for guest](../api/prep_check_CRUDref/delete-prep-check-task-by-id.md)
+* [Remove a task for a guest](../api/prep_check_CRUDref/delete-prep-check-task-by-id.md)
