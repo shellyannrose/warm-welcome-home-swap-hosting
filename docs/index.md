@@ -26,8 +26,8 @@ For a hassle-free solution, hosts can use the Gracious Host service. It is a clo
 
 There are three resources:
 
-* [Users](api/users.md) – This contains basic information about the host subscriber, like name and email address.
-* [House-exchanges](api/house_exchanges.md) – Once the host has a confirmed home swap, the host adds details about the guest. This resource stores guest details, like arrival date, number of guests, guest points usage, and so on.
+* [Hosts](api/users.md) – This contains basic information about the host subscriber, like name and email address.
+* [Guests](api/house_exchanges.md) – Once the host has a confirmed home swap, the host adds details about the guest. This resource stores guest details, like arrival date, number of guests, guest points usage, and so on.
 * [Prep-checks](api/prep_checks.md) – The host then creates tasks for making the home ready. This includes cleaning rooms or buying utensils and food. This resource stores these tasks and alerts the host about a task’s due date.
 
 ## App integrations
@@ -74,8 +74,8 @@ on the installation of the service.
 When running a local test, the `{base_url}` is
 generally `http://localhost:3000`.
 
-* [users resource](api/users.md)
-* [house-exchanges resource](api/house_exchanges.md)
+* [hosts resource](api/users.md)
+* [guests resource](api/house_exchanges.md)
 * [prep-checks resource](api/prep_checks.md)
 * [Endpoint index](TBD)
 * [Handling errors](TBD)
