@@ -1,12 +1,13 @@
 # Get a list of all house guests for a specific host
 
-Use host's `user_id` to get a list of all the guests for the host.
+Use the host's `host_id` to get a list of all the guests for a host.
 
 ## URL
 
 ```shell
 
-{GET}{server_url}/house-exchanges/{user_id}
+{GET}{server_url}/guests/{host_id}
+
 ```
 
 ## Parameters
@@ -23,12 +24,12 @@ None
 
 ## Return body
 
-The following example response shows the guests for a host whose `user_id` is 2.
+The following example response shows the guests for a host whose `host_id` is 2.
 
 ```js
 [
     {
-      "user_id": 2,
+      "host_id": 2,
       "arrival-date": "2024-08-07T11:00",
       "departure-date": "2024-08-14T12:00", 
       "guest-names": "Pat",

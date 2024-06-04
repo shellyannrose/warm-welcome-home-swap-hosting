@@ -1,20 +1,22 @@
 # Find all guest names for a specific guest
 
-Use the host's `user_id`, the house-exchanges `id`, and `guest-names` to get a list of all the guests' names.
+Use the host's `host_id`, the guest's `id`, and `guest-names` to get a list of all the guests' names.
+
 
 ## URL
 
 ```shell
 
-{GET}{server_url}/house-exchanges/{user_id}/{id}/guest-names
+{GET}{server_url}/guests/{host_id}/{id}/guest-names
+
 ```
 
 ## Parameters
 
 | Property name | Type | Description |
 | ------------- | ----------- | ----------- |
-| `user_id` | Number | Refers to the host id in the users resource |
-| `id` | Number | Service-generated unique ID for the house exchange |
+| `host_id` | Number | Refers to the host id in the hosts resource |
+| `id` | Number | Service-generated unique ID for the guests resource |
 
 ## Request headers
 
@@ -26,7 +28,7 @@ None
 
 ## Return body
 
-The following example shows the guest names for the host whose `user_id` is 3 and `house-exchanges` id is 4.
+The following example shows the guest names for the host whose `host_id` is 3 and guest id is 4.
 
 ```js
 [
@@ -38,7 +40,9 @@ The following example shows the guest names for the host whose `user_id` is 3 an
 ]
 ```
 
-**Note** You can use a similar request to find a specific guest's details. These include `arrival-date`,`departure-date`,`last-name-primary`, `number-of-guests`, and `type-of-exchange`. Just replace the last two parameters in the curly braces {} in the URL in the GET request.
+
+**Note** You can use a request like this to find a specific guest's details. These include `arrival-date`,`departure-date`,`last-name-primary`, `number-of-guests`, and `type-of-exchange`. To do that, change the two parameters in the curly braces {} after the resource name in the request URL. Then change the final parameter after the forward slash in the URL.
+
 
 ## Return status
 

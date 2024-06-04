@@ -1,22 +1,20 @@
 # Update (PUT) guest names
 
-Use the host's `host_id` and the guest's `id` and change the guest names.
+Use the host's `host_id` and the guest's `guest_id` and change the room and area of a task for a guest.
 
 ## URL
 
 ```shell
 
-{PUT}{server_url}/guests/{host_id}/{id}
-
+{PUT}{server_url}/house-exchanges/{user_id}/{id}
 ```
 
 ## Parameters
 
 | Property name | Type | Description |
 | ------------- | ----------- | ----------- |
-| `host_id` | Number | Refers to the host id in the hosts resource |
-| `id` | Number | Service-generated unique ID for the guests resource |
-
+| `user_id` | Number | Refers to the host id in the users resource |
+| `id` | Number | Service-generated unique ID for the house exchange |
 
 ## Request headers
 
@@ -31,6 +29,7 @@ Use the host's `host_id` and the guest's `id` and change the guest names.
 ```js
 [
     {
+      
       "arrival-date": "2024-09-05T13:00",
       "departure-date": "2024-09-13T12:00", 
       "guest-names": "John and Marlena",
@@ -43,12 +42,12 @@ Use the host's `host_id` and the guest's `id` and change the guest names.
 
 ## Return body
 
-The following example shows the response if the `host_id` is 1 and the guest's `id` is 2.
+The following example shows the response if the host's `user_id` is 1 and the house-exchanges `id` is 2.
 
 ```js
 [
     {
-      "host_id": 1,
+      "user_id": 1,
       "arrival-date": "2024-09-05T13:00",
       "departure-date": "2024-09-13T12:00", 
       "guest-names": "John and Marlena",
@@ -60,7 +59,7 @@ The following example shows the response if the `host_id` is 1 and the guest's `
 ]
 ```
 
-**Note** You can use a request like this to update `number-of-guests`. To do that, change the two parameters in the curly braces {} after the resource name in the request URL. In this resource, you can only change `guest-names` and `number-of-guests`.
+**Note** You can use a similar request to update `number-of-guests`. Just replace the parameter in the curly braces {} of the URL in the PUT request. In this resource, you can only change `guest-names` and `number-of-guests`.
 
 ## Return status
 

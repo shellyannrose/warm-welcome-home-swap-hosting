@@ -1,12 +1,12 @@
 # Find a specific host using the id parameter
 
-Use the host's service-generated `id` parameter to get information about a specific host.
+Use the host's `id` parameter to get information about a specific host.
 
 ## URL
 
 ```shell
 
-{GET}{server_url}/users/{id}
+{GET}{server_url}/hosts/{id}
 ```
 
 ## Parameters
@@ -38,7 +38,7 @@ The following example shows the response if the `id` parameter value is 4.
 ]
 ```
 
-**Note** You can use a similar request to find a host by `first_name,` `email,` and `last_name`. Just replace the parameter in the curly braces {} at the end of the URL in the GET request
+**Note** You can use a request like this to find a host by `first_name,` `email,` and `last_name`. Just replace the parameter in the curly braces {} in the request URL.
 
 ## Return status
 

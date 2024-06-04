@@ -1,12 +1,12 @@
 # Remove a specific host from the service
 
-Use the host's service-generated `id` parameter and remove the host from the service.
+Use the host's `id` parameter and remove the host from the service.
 
 ## URL
 
 ```shell
 
-{DELETE}{server_url}/users/{id}
+{DELETE}{server_url}/hosts/{id}
 
 ```
 

@@ -6,14 +6,14 @@ Use the `last_name` parameter to get a list of hosts that have a specific last n
 
 ```shell
 
-{GET}{server_url}/users/{last_name}
+{GET}{server_url}/hosts?last_name=brennon
 ```
 
 ## Parameters
 
 | Property name | Type | Description |
 | ------------- | ----------- | ----------- |
-| `last_name` | String | Host’s last name |
+| `last_name` | String | Host's last name |
 
 ## Request headers
 
@@ -25,7 +25,7 @@ None
 
 ## Return body
 
-The following example shows the response for all hosts whose `last_name` parameter value is Brennon. 
+The following example shows the response for all hosts whose `last_name` parameter value is Brennon.
 
 ```js
 [
@@ -38,7 +38,7 @@ The following example shows the response for all hosts whose `last_name` paramet
 ]
 ```
 
-**Note** You can use a similar request to find a host by  `first_name,` `email,` and `id`. Just replace the parameter in the curly braces {} at the end of the URL in the GET request.
+**Note** You can use a request like this to find a host by a specific `first_name,` `email,` and `id`. After the question mark, change the parameter name and value in the request URL.
 
 ## Return status
 

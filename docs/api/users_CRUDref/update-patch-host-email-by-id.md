@@ -1,12 +1,12 @@
 # Update (PATCH) a specific host's email
 
-Use the host's service-generated `id` parameter and change the email address for that host.
+Use the host's `id` parameter and change the email address for that host.
 
 ## URL
 
 ```shell
 
-{PATCH}{server_url}/users/{id}
+{PATCH}{server_url}/hosts/{id}
 ```
 
 ## Parameters
@@ -48,7 +48,7 @@ The following example shows the response if the `id` parameter value is 4.
 ]
 ```
 
-**Note** You can use a similar request to update a host's `first_name` and `last_name`. Just replace the parameter in the curly braces {} at the end of the URL in the PATCH request.
+**Note** You can use a request like this to update a host's `first_name` and `last_name`. Just replace the parameter in the curly braces {} in the request URL.
 
 ## Return status
 

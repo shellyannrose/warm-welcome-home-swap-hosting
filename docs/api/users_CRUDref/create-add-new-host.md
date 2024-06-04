@@ -1,4 +1,4 @@
-# Add a host to the service
+# Add a new host to the service
 
 This creates a record of a new host who subscribes to the service.
 
@@ -6,7 +6,7 @@ This creates a record of a new host who subscribes to the service.
 
 ```shell
 
-{POST}{server_url}/users/
+{POST}{server_url}/hosts
 ```
 
 ## Parameters
@@ -19,7 +19,9 @@ This creates a record of a new host who subscribes to the service.
 
 ## Request headers
 
-None
+| Key | Value |
+|---|---|
+| Content-Type | application/json |
 
 ## Request body
 
@@ -36,7 +38,7 @@ None
 
 ## Return body
 
-The following example shows the response. The information should be the same as what you placed in the request body. The response should include the new host's service-generated id.
+The following example shows the response. The information should be the same as what you placed in the request body. The response should include a new host's service-generated id for the host.
 
 ```js
 [

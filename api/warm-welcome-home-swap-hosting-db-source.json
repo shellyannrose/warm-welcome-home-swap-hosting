@@ -1,5 +1,5 @@
 {
-  "users": [
+  "hosts": [
     {
       "last_name": "Smith",
       "first_name": "Wallace",
@@ -25,9 +25,9 @@
       "id": 4
     }
   ],
-  "house-exchanges": [
+  "guests": [
     {
-      "user_id": 1,
+      "host_id": 1,
       "arrival-date": "2024-08-12T17:00",
 	    "departure-date": "2024-08-20T12:00", 
       "guest-names": "Bill and Katie",
@@ -37,70 +37,70 @@
       "id": 1
     },
  {
-      "user_id": 1,
+      "host_id": 1,
       "arrival-date": "2024-09-05T13:00",
-	  "departure-date": "2024-09-13T12:00", 
+	    "departure-date": "2024-09-13T12:00", 
       "guest-names": "Sarah and John",
       "last-name-primary": "Jones",
       "number-of-guests": "3",
-	  "type-of-exchange": "Reciprocal",  
+	    "type-of-exchange": "Reciprocal",
       "id": 2
     },
   {
-      "user_id": 2,
+      "host_id": 2,
       "arrival-date": "2024-08-07T11:00",
-	  "departure-date": "2024-08-14T12:00", 
+	    "departure-date": "2024-08-14T12:00", 
       "guest-names": "Pat",
       "last-name-primary": "Brent",
       "number-of-guests ": "2",
-	  "type-of-exchange": "Guest Points",  
+	    "type-of-exchange": "Guest Points",  
       "id": 3
     },
  {
-      "user_id": 3,
+      "host_id": 3,
       "arrival-date": "2024-09-04T15:00",
-	  "departure-date": "2024-09-08T12:00", 
+	    "departure-date": "2024-09-08T12:00", 
       "guest-names": "Peter and Anna",
       "last-name-primary": "Stapleton",
       "number-of-guests ": "6",
-	  "type-of-exchange": "Reciprocal",  
+	    "type-of-exchange": "Reciprocal",  
       "id": 4
     }
   ],
   "prep-checks": [
     {
-      "user_id": 1,
-	  "exchange_id": 1,
+      "host_id": 1,
+	    "guest_id": 1,
       "title": "Bed linen change",
-      "room/area": "Bedrooms",
-      "due date": "2024-08-10",
+      "room-area": "Bedrooms",
+      "due-date": "2024-08-10",
       "warning": "-12",
       "id": 1
     },
     {
-      "user_id": 1,
-	  "exchange_id": 2,
+      "host_id": 1,
+	    "guest_id": 2,
       "title": "Dust, vacuum, mop",
-      "room/area": "Whole house",
-      "due date": "2024-09-04",
+      "room-area": "Whole house",
+      "due-date": "2024-09-04",
       "warning": "-24",
       "id": 2
     },
     {
-      "user_id": 2,
-	  "exchange_id": 3,
+      "host_id": 2,
+	    "guest_id": 3,
       "title": "Leave welcome treats for guests",
-      "room/area": "Kitchen",
-      "due date": "2024-08-06",
+      "room-area": "Kitchen",
+      "due-date": "2024-08-06",
       "warning": "-4",
       "id": 3
     },
     {
-      "user_id": 3,
-	  "exchange_id": 4,
+      "host_id": 3,
+	    "guest_id": 4,
       "title": "Weed garden and clear paths",
-      "room/area": "Exterior",
-      "due date": "2024-09-03",
+      "room-area": "Exterior",
+      "due-date": "2024-09-03",
       "warning": "-72",
       "id": 4
     }

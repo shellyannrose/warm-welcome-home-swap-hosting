@@ -1,12 +1,12 @@
 # Update (PUT) a specific host's first name
 
-Use the host's service-generated `id` parameter and change information about that host.
+Use the host's `id` parameter and change information about that host.
 
 ## URL
 
 ```shell
 
-{PUT}{server_url}/users/{id}
+{PUT}{server_url}/hosts/{id}
 ```
 
 ## Parameters
@@ -50,7 +50,8 @@ The following example shows the response if the `id` parameter value is 4.
 ]
 ```
 
-**Note** You can use a similar request to update a host's `email` and `last_name`. Just replace the parameter in the curly braces {} at the end of the URL in the PUT request.
+**Note** You can use a request like this to update a host's `email` and `last_name`. Just replace the parameter in the curly braces {} in the request URL.
+
 
 ## Return status
 

@@ -6,8 +6,7 @@ Get a list of all the reciprocal house exchanges for a specific host.
 
 ```shell
 
-{GET}{server_url}/guests/{host_id}?type-of-exchange=reciprocal
-
+{GET}{server_url}/house-exchanges/{user_id}?type-of-exchange=reciprocal
 ```
 
 ## Parameters
@@ -24,12 +23,12 @@ None
 
 ## Return body
 
-The following example shows the response for the host whose `host_id` is 1. It shows the details of the host's only reciprocal house exchange.
+The following example shows the response for the host whose `user_id` is 1. It shows the details of the host's only reciprocal house exchange
 
 ```js
 [
     {
-      "host_id": 1,
+      "user_id": 1,
       "arrival-date": "2024-09-05T13:00",
       "departure-date": "2024-09-13T12:00", 
       "guest-names": "Sarah and John",
@@ -41,7 +40,7 @@ The following example shows the response for the host whose `host_id` is 1. It s
   ]
 ```
 
-**Note** You can use a request like this to find a value for other properties. These include `arrival-date`,`departure-date`,`last-name-primary`, `number-of-guests`, `guest-names`, and `id`. To do that, change the parameter in the curly braces {} after the resource name in the request URL. After the question mark, change the parameter name and the value after the equal sign.
+**Note** You can use a similar request to find a specific value for a property. These include `arrival-date`,`departure-date`,`last-name-primary`, `number-of-guests`, `guest-names`, and `id`. In the GET request URL, replace the parameter after the question mark. Then change the value after the equal sign.
 
 ## Return status
 
