@@ -6,7 +6,7 @@ Use the host's `host_id` and the guest's `guest_id` and remove a task for a gues
 
 ```shell
 
-{DELETE}{server_url}/prep-checks/{host_id}/{guest_id}/{id}
+{DELETE}{server_url}/prep-checks?{host_id}/{guest_id}/{id}
 
 ```
 

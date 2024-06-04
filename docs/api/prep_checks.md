@@ -51,25 +51,18 @@ The `prep-checks` resource supports the operations below.
 ## READ (GET)
 
 * [Get all tasks for a host](../api/prep_check_CRUDref/get-all-prep-check-tasks.md)
-* [Get prep-check task by id](tbd)
-* [Get prep-check task by guest_id](tbd)
-* [Get all prep-check titles](tbd)
-* [Get prep-check title by id](tbd)
-* [Get prep-check title by guest_id](tbd)
-* [Get all room/area info](tbd)
-* [Get room/area info by id](tbd)
-* [Get room/area info by guest_id](tbd)
-* [Get all due dates](tbd)
-* [Get a due date by id](tbd)
+* [Get a task by its id](tbd)
+* [Get a task by a guest id](tbd)
+* [Get a task's title by its id](tbd)
+* [Get a task's title by guest_id](tbd)
 * [Get a task's due date for a guest](../api/prep_check_CRUDref/get-prep-check-due-date-by-id.md)
-* [Get all warning numbers](tbd)
-* [Get a warning number by id](tbd)
-* [Get a warning number by guest_id](tbd)
+* [Get a warning number by task id](tbd)
+* [Get a warning number by a guest id](tbd)
 
 ## UPDATE (PUT/PATCH)
 
 * [Update (PUT) a room or area for a task](../api/prep_check_CRUDref/update-put-room-area-by-guest-id.md)
-* [Update (PATCH) a tasks's warning time](../api/prep_check_CRUDref/update-patch-warning-by-id.md)
+* [Update (PATCH) a task's warning time](../api/prep_check_CRUDref/update-patch-warning-by-id.md)
 
 ## DELETE (DELETE)
 

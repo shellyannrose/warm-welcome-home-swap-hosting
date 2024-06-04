@@ -31,8 +31,8 @@ The following example response shows all the tasks for a host whose `host_id` is
       "host_id": 1,
       "guest_id": 1,
       "title": "Bed linen change",
-      "room/area": "Bedrooms",
-      "due date": "2024-08-10",
+      "room-area": "Bedrooms",
+      "due-date": "2024-08-10",
       "warning": "-12",
       "id": 1
     },
@@ -40,8 +40,8 @@ The following example response shows all the tasks for a host whose `host_id` is
       "host_id": 1,
       "guest_id": 2,
       "title": "Dust, vacuum, mop",
-      "room/area": "Whole house",
-      "due date": "2024-09-04",
+      "room-area": "Whole house",
+      "due-date": "2024-09-04",
       "warning": "-24",
       "id": 2
     }

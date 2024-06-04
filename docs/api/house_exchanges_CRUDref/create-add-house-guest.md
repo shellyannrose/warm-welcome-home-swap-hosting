@@ -6,7 +6,7 @@ This creates a record of a new house guest for a specific host's `host_id`.
 
 ```shell
 
-{POST}{server_url}/guests/{host_id}
+{POST}{server_url}/guests/
 
 ```
 
