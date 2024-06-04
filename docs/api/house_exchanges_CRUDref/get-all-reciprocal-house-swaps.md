@@ -7,6 +7,7 @@ Get a list of all the reciprocal house exchanges for a specific host.
 ```shell
 
 {GET}{server_url}/guests/{host_id}?type-of-exchange=reciprocal
+
 ```
 
 ## Parameters

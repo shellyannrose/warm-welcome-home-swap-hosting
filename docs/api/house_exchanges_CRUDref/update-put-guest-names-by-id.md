@@ -7,6 +7,7 @@ Use the host's `host_id` and the guest's `id` and change the guest names.
 ```shell
 
 {PUT}{server_url}/guests/{host_id}/{id}
+
 ```
 
 ## Parameters
@@ -15,6 +16,7 @@ Use the host's `host_id` and the guest's `id` and change the guest names.
 | ------------- | ----------- | ----------- |
 | `host_id` | Number | Refers to the host id in the hosts resource |
 | `id` | Number | Service-generated unique ID for the guests resource |
+
 
 ## Request headers
 

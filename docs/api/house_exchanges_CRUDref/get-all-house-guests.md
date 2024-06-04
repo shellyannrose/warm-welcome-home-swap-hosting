@@ -7,6 +7,7 @@ Use the host's `host_id` to get a list of all the guests for a host.
 ```shell
 
 {GET}{server_url}/guests/{host_id}
+
 ```
 
 ## Parameters

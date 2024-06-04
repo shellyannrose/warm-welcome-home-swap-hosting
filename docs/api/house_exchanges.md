@@ -42,13 +42,16 @@ Sample `guests` resource
 | `type-of-exchange` | String |Indicates if swap is reciprocal or for guest points.Optional and update not supported |
 | `id` | Number | Service-generated unique ID for the guest |
 
+
 ## Operations
 
 The `guests` resource supports the operations below.
 
 ## CREATE (POST)
 
+
 * [Add details for a new guest](../api/house_exchanges_CRUDref/create-add-house-guest.md)
+
 
 ## READ (GET)
 
@@ -64,4 +67,6 @@ The `guests` resource supports the operations below.
 
 ## DELETE (DELETE)
 
+
 * [Remove a guest from a host's account by id](../api/house_exchanges_CRUDref/delete-house-guest-by-id.md)
+
