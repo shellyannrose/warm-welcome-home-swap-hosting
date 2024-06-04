@@ -6,7 +6,7 @@ This creates a record of a new host who subscribes to the service.
 
 ```shell
 
-{POST}{server_url}/hosts
+{POST}{server_url}/hosts/
 ```
 
 ## Parameters

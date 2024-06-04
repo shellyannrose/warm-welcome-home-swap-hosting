@@ -6,7 +6,7 @@ Use the host's `host_id` and the guest's `guest_id` and create a new task for a 
 
 ```shell
 
-{POST}{server_url}/prep-checks/{host_id}/{guest_id}
+{POST}{server_url}/prep-checks/
 ```
 
 ## Parameters
@@ -16,7 +16,7 @@ Use the host's `host_id` and the guest's `guest_id` and create a new task for a 
 | `host_id` | Number | Refers to the host id in the hosts resource |
 | `guest_id` | Number |Refers to the guest id in the guests resource |
 | `title` | String |The name of the task |
-| `room/area` | String|The part of the home that requires the task |
+| `room-area` | String|The part of the home that requires the task |
 | `due-date` | String | The date the host chooses to finish the task |
 | `warning` | Number |The number of minutes relative to the due date to alert the host to finish the task. This is normally a negative number to alert the host before the due date |
 
@@ -34,8 +34,8 @@ Use the host's `host_id` and the guest's `guest_id` and create a new task for a 
     "host_id": 1,
     "guest_id": 1,
     "title": "Bed linen change",
-    "room/area": "Bedrooms",
-    "due date": "2024-08-10",
+    "room-area": "Bedrooms",
+    "due-date": "2024-08-10",
     "warning": "-12"
         
    }
@@ -52,8 +52,8 @@ The following example shows the response for a host whose `host_id` is 1 and `gu
       "host_id": 1,
       "guest_id": 1,
       "title": "Bed linen change",
-      "room/area": "Bedrooms",
-      "due date": "2024-08-10",
+      "room-area": "Bedrooms",
+      "due-date": "2024-08-10",
       "warning": "-12",
       "id": 1 
     }

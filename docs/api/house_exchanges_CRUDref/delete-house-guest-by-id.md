@@ -1,8 +1,6 @@
 # Remove a specific house guest from the host's account
 
-
 Use the host's `host_id` and the guest `id` and remove a guest from the host's account.
-
 
 ## URL
 
