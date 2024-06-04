@@ -52,6 +52,7 @@ The following example shows the response if the `id` parameter value is 4.
 
 **Note** You can use a request like this to update a host's `email` and `last_name`. Just replace the parameter in the curly braces {} in the request URL.
 
+
 ## Return status
 
 | Status value | Return status | Description |

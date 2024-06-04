@@ -7,6 +7,7 @@ This retrieves a list of all hosts who subscribe to the service.
 ```shell
 
 {GET}{server_url}/hosts
+
 ```
 
 ## Parameters

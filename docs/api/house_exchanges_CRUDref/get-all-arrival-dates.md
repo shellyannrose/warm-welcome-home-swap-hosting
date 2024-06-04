@@ -23,6 +23,7 @@ None
 
 ## Return body
 
+
 The following example shows the response for a host whose `host_id` is 1.
 
 ```js
@@ -38,6 +39,7 @@ The following example shows the response for a host whose `host_id` is 1.
     }
   ]
 ```
+
 
 **Note** You can use a request like this to find all the `departure-date` values for any host. To do that, change the parameter in the curly braces {} after the resource name in the request URL. Then change the final parameter after the forward slash in the URL.
 

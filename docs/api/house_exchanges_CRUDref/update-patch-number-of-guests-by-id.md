@@ -7,6 +7,7 @@ Use the host's `host_id` and the guest `id` and change the number of guests.
 ```shell
 
 {PATCH}{server_url}/guests/{host_id}/{id}
+
 ```
 
 ## Parameters
@@ -15,6 +16,7 @@ Use the host's `host_id` and the guest `id` and change the number of guests.
 | ------------- | ----------- | ----------- |
 | `host_id` | Number | Refers to the host id in the hosts resource |
 | `id` | Number | Service-generated unique ID for the guests resource |
+
 
 ## Request headers
 
