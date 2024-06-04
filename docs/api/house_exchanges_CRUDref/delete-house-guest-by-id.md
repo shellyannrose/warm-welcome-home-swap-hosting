@@ -1,13 +1,13 @@
 # Remove a specific house guest from the host's account
 
-Use the host's `host_id` and the guest `id` and remove a guest from the host's account.
+Use the host's `host_id` and the guest `id` to remove a guest from the host's account.
 
 ## URL
 
 ```shell
 
 
-{DELETE}{server_url}/guests/{host_id}/{id}
+{DELETE}{server_url}/guests?{host_id}={value}&{id}={value}
 
 ```
 
@@ -19,7 +19,6 @@ Use the host's `host_id` and the guest `id` and remove a guest from the host's a
 | ------------- | ----------- | ----------- |
 | `host_id` | Number | Refers to the user id in the hosts resource |
 | `id` | Number | Service-generated unique ID for the guests resource|
-
 
 ## Request headers
 
