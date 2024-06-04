@@ -28,7 +28,6 @@ This creates a record of a new house guest for a specific host's `host_id`.
 |---|---|
 | Content-Type | application/json |
 
-
 ## Request body
 
 ```js
@@ -47,7 +46,6 @@ This creates a record of a new house guest for a specific host's `host_id`.
 ```
 
 ## Return body
-
 
 The following example shows the response for a host whose `host_id` is 1. The information should be the same as what you placed in the request body. The response should include a new service-generated id for the guest.
 
