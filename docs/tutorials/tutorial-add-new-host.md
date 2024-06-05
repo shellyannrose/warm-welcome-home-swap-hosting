@@ -45,13 +45,13 @@ First confirm that your local service is running in the command window. Use the 
 
 1. In the Postman app, make the request by choosing **Send**. The Response body should look like the output below. Note that the content should be the same as you entered in the **Request body**. Also, the response should now include the new host's unique `id`.
 
-  ```js
-      {
-       "last_name": "Rochester",
-       "first_name": "Edward",
-       "email": "ed.rochester@example.com",
-       "id": 1
-      }
+```js
+       {
+        "last_name": "Rochester",
+        "first_name": "Edward",
+        "email": "ed.rochester@example.com",
+        "id": 1
+       }
     ```
 
 ## Next steps
