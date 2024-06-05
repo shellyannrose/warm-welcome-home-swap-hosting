@@ -1,6 +1,6 @@
 # Tutorial: Add a new host to the service
 
-Welcome to the Gracious Host Service! In this tutorial, you will see how easy it is to add a new host.
+ In this tutorial, you will see how easy it is to add a new host.
 
 Expect this tutorial to take about 15 minutes to complete.
 
