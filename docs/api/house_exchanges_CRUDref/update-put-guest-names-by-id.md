@@ -6,7 +6,7 @@ Use the host's `host_id` and the guest's `id` and change the guest names.
 
 ```shell
 
-{PUT}{server_url}/guests/{host_id}/{id}
+{PUT}{server_url}/guests?host_id={value}&id={value}
 
 ```
 
@@ -16,7 +16,6 @@ Use the host's `host_id` and the guest's `id` and change the guest names.
 | ------------- | ----------- | ----------- |
 | `host_id` | Number | Refers to the host id in the hosts resource |
 | `id` | Number | Service-generated unique ID for the guests resource |
-
 
 ## Request headers
 
@@ -60,7 +59,7 @@ The following example shows the response if the `host_id` is 1 and the guest's `
 ]
 ```
 
-**Note** You can use a request like this to update `number-of-guests`. To do that, change the two parameters in the curly braces {} after the resource name in the request URL. In this resource, you can only change `guest-names` and `number-of-guests`.
+**Note** You can use a request like this to update `number-of-guests`. In this resource, you can only change `guest-names` and `number-of-guests`.
 
 ## Return status
 

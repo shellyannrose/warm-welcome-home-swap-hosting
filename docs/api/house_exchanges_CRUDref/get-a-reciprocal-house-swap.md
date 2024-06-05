@@ -6,7 +6,7 @@ Get a list of all the reciprocal house exchanges for a specific host.
 
 ```shell
 
-{GET}{server_url}/guests/{host_id}?type-of-exchange=reciprocal
+{GET}{server_url}/guests?host_id={value}&type-of-exchange=Reciprocal
 
 ```
 
@@ -24,7 +24,7 @@ None
 
 ## Return body
 
-The following example shows the response for the host whose `host_id` is 1. It shows the details of the host's only reciprocal house exchange.
+The following example shows the response for the host whose `host_id` is 1. It shows the details of the host's only reciprocal house exchange. The value for the parameter is case-sensitive.
 
 ```js
 [
@@ -41,7 +41,7 @@ The following example shows the response for the host whose `host_id` is 1. It s
   ]
 ```
 
-**Note** You can use a request like this to find a value for other properties. These include `arrival-date`,`departure-date`,`last-name-primary`, `number-of-guests`, `guest-names`, and `id`. To do that, change the parameter in the curly braces {} after the resource name in the request URL. After the question mark, change the parameter name and the value after the equal sign.
+**Note** You can use a request like this to find a value for other properties. These include `arrival-date`,`departure-date`,`last-name-primary`, `number-of-guests`, `guest-names`, and `id`. To do that, change the parameter and value at the end of the request URL.
 
 ## Return status
 

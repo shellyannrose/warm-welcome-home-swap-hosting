@@ -6,7 +6,7 @@ Use the host's `host_id` and the guest `id` and change the number of guests.
 
 ```shell
 
-{PATCH}{server_url}/guests/{host_id}/{id}
+{PATCH}{server_url}/guests?host_id={value}&id={value}
 
 ```
 
@@ -16,7 +16,6 @@ Use the host's `host_id` and the guest `id` and change the number of guests.
 | ------------- | ----------- | ----------- |
 | `host_id` | Number | Refers to the host id in the hosts resource |
 | `id` | Number | Service-generated unique ID for the guests resource |
-
 
 ## Request headers
 
@@ -55,7 +54,7 @@ The following example shows the response if the `host_id` is 2 and the guest `id
 ]
 ```
 
-**Note** You can use a request like this to update `guest-names`. To do that, change the two parameters in the curly braces {} after the resource name of the request URL. In this resource, you can only change `guest-names` and `number-of-guests`.
+**Note** You can use a request like this to update `guest-names`. In this resource, you can only change `guest-names` and `number-of-guests`.
 
 ## Return status
 

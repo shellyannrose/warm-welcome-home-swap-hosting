@@ -42,23 +42,18 @@ Sample `guests` resource
 | `type-of-exchange` | String |Indicates if swap is reciprocal or for guest points.Optional and update not supported |
 | `id` | Number | Service-generated unique ID for the guest |
 
-
 ## Operations
 
 The `guests` resource supports the operations below.
 
 ## CREATE (POST)
 
-
 * [Add details for a new guest](../api/house_exchanges_CRUDref/create-add-house-guest.md)
-
 
 ## READ (GET)
 
-* [Get all house guests](../api/house_exchanges_CRUDref/get-all-house-guests.md)
-* [Get all guest names by id](../api/house_exchanges_CRUDref/get-all-guest-names-by-id.md)
-* [Get all arrival dates](../api/house_exchanges_CRUDref/get-all-arrival-dates.md)
-* [Get all reciprocal house swaps](../api/house_exchanges_CRUDref/get-all-reciprocal-house-swaps.md)
+* [Get all house guests for a host](../api/house_exchanges_CRUDref/get-all-house-guests.md)
+* [Get a reciprocal house swap](../api/house_exchanges_CRUDref/get-a-reciprocal-house-swap.md)
 
 ## UPDATE (PATCH/PUT)
 
@@ -67,6 +62,4 @@ The `guests` resource supports the operations below.
 
 ## DELETE (DELETE)
 
-
 * [Remove a guest from a host's account by id](../api/house_exchanges_CRUDref/delete-house-guest-by-id.md)
-
