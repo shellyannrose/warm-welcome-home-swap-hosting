@@ -51,7 +51,7 @@ The `prep-checks` resource supports the operations below.
 ## READ (GET)
 
 * [Get all tasks for a host](../api/prep_check_CRUDref/get-all-prep-check-tasks.md)
-* [Get tasks for a specific due date](../api/prep_check_CRUDref/get-prep-check-tasks-by-due-date)
+* [Get tasks for a specific due date](../api/prep_check_CRUDref/get-prep-check-tasks-by-due-date.md)
 
 ## UPDATE (PUT/PATCH)
 

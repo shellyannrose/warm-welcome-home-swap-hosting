@@ -38,8 +38,8 @@ The following example shows the response if the `host_id` value is 2, the `guest
       "host_id": 2,
       "guest_id": 3,
       "title": "Leave welcome treats for guests",
-      "room/area": "Kitchen",
-      "due date": "2024-08-06",
+      "room-area": "Kitchen",
+      "due-date": "2024-08-06",
       "warning": "-4",
       "id": 3
     }

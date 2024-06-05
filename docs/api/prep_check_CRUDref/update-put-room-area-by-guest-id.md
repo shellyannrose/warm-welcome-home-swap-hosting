@@ -41,7 +41,7 @@ Use the `host_id`, `guest_id`, and prep-checks `id` to update the room or area f
 
 ## Return body
 
-The following example shows the response if the `host_id` is 3, `guest_id` is 3, and prep-checks `id` is 4.
+The following example shows the response if the `host_id` is 3, `guest_id` is 3, and prep-checks `id` is 4. The title value changed as well.
 
 ```js
 [
