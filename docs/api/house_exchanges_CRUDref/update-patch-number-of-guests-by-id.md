@@ -1,6 +1,6 @@
 # Update (PATCH) the total number of people coming with a guest
 
-Use the host's `host_id` and the guest `id` and change the number of guests.
+Use the `host_id` and the guest `id` to change the number of guests.
 
 ## URL
 

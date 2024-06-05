@@ -1,20 +1,21 @@
-# Update (PUT) guest names
+# Update (PUT) the room or area for a task
 
-Use the host's `host_id` and the guest's `guest_id` and change the room and area of a task for a guest.
+Use the `host_id`, `guest_id`, and prep-checks `id` to update the room or area for a task.
 
 ## URL
 
 ```shell
 
-{PUT}{server_url}/house-exchanges/{user_id}/{id}
+{PUT}{server_url}/prep-checks?host_id={value}&guest_id={value}&id={value}
 ```
 
 ## Parameters
 
 | Property name | Type | Description |
 | ------------- | ----------- | ----------- |
-| `user_id` | Number | Refers to the host id in the users resource |
-| `id` | Number | Service-generated unique ID for the house exchange |
+| `host_id` | Number | Refers to the host id in the hosts resource |
+| `guest_id` | Number |Refers to the guest id in the guests resource |
+| `id` | Number | Service-generated unique ID for the task in the prep-checks resource |
 
 ## Request headers
 
@@ -24,42 +25,39 @@ Use the host's `host_id` and the guest's `guest_id` and change the room and area
 
 ## Request body
 
-**Important** The request body replaces all the current properties of the guest. For properties that you do not want to change, you must use their current values in the request body.
+**Important** The request body replaces all the current properties of the task, except the unique IDs. For properties that you do not want to change, you must use their current values in the request body.
 
 ```js
 [
     {
       
-      "arrival-date": "2024-09-05T13:00",
-      "departure-date": "2024-09-13T12:00", 
-      "guest-names": "John and Marlena",
-      "last-name-primary": "Jones",
-      "number-of-guests": "3",
-      "type-of-exchange": "Reciprocal",  
+      "title": "Move car",
+      "room-area": "Garage",
+      "due-date": "2024-09-03",
+      "warning": "-72"
     }
 ]
 ```
 
 ## Return body
 
-The following example shows the response if the host's `user_id` is 1 and the house-exchanges `id` is 2.
+The following example shows the response if the `host_id` is 3, `guest_id` is 3, and prep-checks `id` is 4. The title value changed as well.
 
 ```js
 [
     {
-      "user_id": 1,
-      "arrival-date": "2024-09-05T13:00",
-      "departure-date": "2024-09-13T12:00", 
-      "guest-names": "John and Marlena",
-      "last-name-primary": "Jones",
-      "number-of-guests": "3",
-      "type-of-exchange": "Reciprocal",  
-      "id": 2
+      "host_id": 3,
+      "guest_id": 4,
+      "title": "Move car",
+      "room-area": "Garage",
+      "due-date": "2024-09-03",
+      "warning": "-72",
+      "id": 4
     }
 ]
 ```
 
-**Note** You can use a similar request to update `number-of-guests`. Just replace the parameter in the curly braces {} of the URL in the PUT request. In this resource, you can only change `guest-names` and `number-of-guests`.
+**Note** You can use a similar request to update the other properties. Just replace the parameters and values in the request body.
 
 ## Return status
 

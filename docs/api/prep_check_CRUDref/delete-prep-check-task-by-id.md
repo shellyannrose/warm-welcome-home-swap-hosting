@@ -1,6 +1,6 @@
 # Remove a specific task for a guest from the host's account
 
-Use the host's `host_id` and the guest's `guest_id` to remove a task for a guest.
+Use the `host_id`, `guest_id`, and prep-checks `id` to remove a task for a guest.
 
 ## URL
 
@@ -10,7 +10,7 @@ Use the host's `host_id` and the guest's `guest_id` to remove a task for a guest
 
 ```
 
-**Important** Use caution when you create a DELETE request.  If you do not provide an `id` parameter, you will remove all tasks for a guest from a host's account.
+**Important** Use caution when you create a DELETE request.  If you do not provide an `id` parameter, value you will remove all tasks for a guest from a host's account.
 
 ## Parameters
 
@@ -38,8 +38,8 @@ The following example shows the response if the `host_id` value is 2, the `guest
       "host_id": 2,
       "guest_id": 3,
       "title": "Leave welcome treats for guests",
-      "room/area": "Kitchen",
-      "due date": "2024-08-06",
+      "room-area": "Kitchen",
+      "due-date": "2024-08-06",
       "warning": "-4",
       "id": 3
     }

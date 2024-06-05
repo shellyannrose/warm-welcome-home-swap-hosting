@@ -1,6 +1,6 @@
 # Remove a specific host from the service
 
-Use the host's `id` parameter and remove the host from the service.
+Use the host's `id` to remove the host from the service.
 
 ## URL
 

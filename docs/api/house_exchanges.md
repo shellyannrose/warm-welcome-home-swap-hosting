@@ -53,7 +53,8 @@ The `guests` resource supports the operations below.
 ## READ (GET)
 
 * [Get all house guests for a host](../api/house_exchanges_CRUDref/get-all-house-guests.md)
-* [Get a reciprocal house swap](../api/house_exchanges_CRUDref/get-a-reciprocal-house-swap.md)
+* [Get reciprocal house swaps](../api/house_exchanges_CRUDref/get-a-reciprocal-house-swap.md)
+
 
 ## UPDATE (PATCH/PUT)
 

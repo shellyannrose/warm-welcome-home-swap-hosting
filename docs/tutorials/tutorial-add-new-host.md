@@ -1,64 +1,59 @@
-# Add a host to the service
+# Tutorial: Add a new host to the service
 
-This creates a record of a new host who subscribes to the service.
+ In this tutorial, you will see how easy it is to add a new host.
 
-## URL
+Expect this tutorial to take about 15 minutes to complete.
 
-```shell
+## Before you start
 
-{server_url}/users/
-```
+First confirm that your local service is running in the command window. Use the following:
 
-## Params
-
-| Property name | Type | Description |
-| ------------- | ----------- | ----------- |
-| `last_name` | String | Host’s last name |
-| `first_name` | String | Host’s first name|
-| `email` | String |Host’s email address |
-
-## Request headers
-
-None
-
-## Request body example
-
-```js
-[
-   {
-    "last_name": "Smith",
-    "first_name": "Wallace",
-    "email": "w.smith@example.com",
+    ```shell
     
-   }
-]
-```
+         cd <your-github-workspace>/warm-welcome-home-swap-hosting/api
+        # Run the service and monitor its database file for updates
+        json-server -w warm-welcome-home-swap-hosting-db-source.json
 
-## Return body example
+    ```
 
-The following example shows the response. Note that the information should be the same as you used in your request body. The response should include the new user’s service-generate id. The user’s id is automatically generated when the user is created.
+## Start the Postman app
 
-```js
-[
-    {
-        "last_name": "Smith",
-        "first_name": "Wallace",
-        "email": "w.smith@example.com",
-        "id": 1
-    }
-]
-```
+1. Open the Postman app on your desktop.
+1. In the Postman app, create a new request and enter the values below.
+    * **METHOD**: POST
+    * **URL**: `{{base_url}}/hosts`
+    * **Headers**:
+        * `Content-Type: application/json`
+    * **Request body**:
+        The table below lists the required properties for each host.
 
-## Return status
+    | Property name | Type | Description |
+    | ------------- | ----------- | ----------- |
+    | `last_name` | String | Host’s last name |
+    | `first_name` | String | Host’s first name|
+    | `email` | String |Host’s email address |
 
-| Status value | Return status | Description |
-| ------------- | ----------- | ----------- |
-| 200 | Success | User data created successfully |
-| 500 | Internal server error | Invalid JSON |
-| 404 | Error | The requested resource does not exist |
-| ECONNREFUSED | N/A | Service is offline. Start the service and try again. |
+1. In the Request body, enter the JSON script for the properties as shown below.
 
-Related information
+   ```js
+       {
+        "last_name": "Rochester",
+        "first_name": "Edward",
+        "email": "ed.rochester@example.com"
+       }
 
-* Add details for a new house exchange guest
-* Add a task to prepare for a guest
+   ```
+
+1. In the Postman app, make the request by choosing **Send**. The Response body should look like the output below. Note that the content should be the same as you entered in the **Request body**. Also, the response should now include the new host's unique `id`.
+
+   ```js
+       {
+        "last_name": "Rochester",
+        "first_name": "Edward",
+        "email": "ed.rochester@example.com"
+       }
+   ```
+
+## Next steps
+
+Congrats on adding your first host! After doing this tutorial in Postman, you might like to repeat it in your favorite programming language. To do this, adapt the values from the tutorial to the properties and arguments that the language uses to make REST API calls.

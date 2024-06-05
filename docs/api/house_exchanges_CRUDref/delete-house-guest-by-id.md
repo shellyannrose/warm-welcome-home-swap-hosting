@@ -1,6 +1,7 @@
 # Remove a specific house guest from the host's account
 
-Use the host's `host_id` and the guest `id` to remove a guest from the host's account.
+Use the `host_id` and the guest `id` to remove a guest from the host's account.
+
 
 ## URL
 
@@ -11,7 +12,7 @@ Use the host's `host_id` and the guest `id` to remove a guest from the host's ac
 
 ```
 
-**Important** Use caution when you create a DELETE request.  If you do not provide an `id` parameter, you will remove all guests from a host's account. Also, you cannot delete any property for a guest. You can only delete the guest from a host's account.
+**Important** Use caution when you create a DELETE request.  If you do not provide an `id` parameter, value you will remove all guests from a host's account. Also, you cannot delete any property for a guest. You can only delete the guest from a host's account.
 
 ## Parameters
 

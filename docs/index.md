@@ -1,7 +1,6 @@
 
 # The Gracious Host Service
 
-
 World travelers now have the option to live like locals. Home exchange is one way to do this, for a fraction of the housing cost. Unlike hotels or rentals, travelers swap homes with people who live in a place they want to visit. For example, a woman from Ireland longs to explore the Yukon. She trades homes with a Canadian who loves Yeats.
 
 ## The problem: a host’s harried life  
@@ -38,30 +37,13 @@ Possible app integrations include:
 * Vacation (travel) bookings
 * Rental property management
 
-Now that you know a bit about this service, read the [Get started](#get-started) guide. You will see how easy it is for hosts to give their guests a warm welcome.
-
-## Get started
-
-### Register as a host
-
-Add (POST) new host to service
-
-### Tells us about your guest
-
-Add (POST) information for a new guest
-
-### Get your home ready
-
-Add (POST) a home task for a specific guest
+Now that you know a bit about this service, try [adding a new host](tutorials/tutorial-add-new-host.md) to the service. You will see how easy it is for hosts to give their guests a warm welcome!
 
 ## Tutorials
 
 Learn how to do common tasks within the service.
 
-
-### [Add a new host](tutorials/tutorial-add-new-host.md) to the service
-
-TBD setup
+### [Add a new host to the service](tutorials/tutorial-add-new-host.md)
 
 ## API reference docs
 
@@ -77,6 +59,3 @@ generally `http://localhost:3000`.
 * [hosts resource](api/users.md)
 * [guests resource](api/house_exchanges.md)
 * [prep-checks resource](api/prep_checks.md)
-* [Endpoint index](TBD)
-* [Handling errors](TBD)
-* [Properties cheat sheet for successful requests](TBD)

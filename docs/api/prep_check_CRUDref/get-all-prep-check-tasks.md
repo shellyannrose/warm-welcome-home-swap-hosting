@@ -1,12 +1,12 @@
 # Get a list of all the tasks for a specific host
 
-Use the host's `host_id` to get a list of all the tasks for a host.
+Use the `host_id` to get a list of all the tasks for a host.
 
 ## URL
 
 ```shell
 
-{GET}{server_url}/prep-checks/{host_id}
+{GET}{server_url}/prep-checks?host_id={value}
 ```
 
 ## Parameters

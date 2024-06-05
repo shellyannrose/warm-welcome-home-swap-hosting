@@ -1,12 +1,12 @@
-# Find the due date of a task for a guest
+# Find all tasks for a due date
 
-Use the host's `host_id` and the guest's `guest_id` and list the due date of a task for a guest.
+Use the `due-date` to list the tasks for that date.
 
 ## URL
 
 ```shell
 
-{GET}{server_url}/prep-checks/{host_id}/{guest_id}/{id}/due-date
+{GET}{server_url}/prep-checks?due-date=2024-09-04
 ```
 
 ## Parameters
@@ -23,7 +23,7 @@ None
 
 ## Return body
 
-The following example shows the response for a host whose `host_id` is 1. The `guest_id` is 2, the task id is 2.
+The following example shows the response for all tasks due by September 4, 2024.
 
 ```js
 [
@@ -39,7 +39,7 @@ The following example shows the response for a host whose `host_id` is 1. The `g
   ]
 ```
 
-**Note** You can use a request like this to find all the properties for a task. Just replace the three parameters in the curly braces {} in the request URL. Then change the final parameter.
+**Note** You can use a request like this to find tasks by another property's value. Just replace the parameter and value in the request URL.
 
 ## Return status
 

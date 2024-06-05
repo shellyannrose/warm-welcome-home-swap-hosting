@@ -1,6 +1,6 @@
 # Update (PUT) a specific host's first name
 
-Use the host's `id` parameter and change information about that host.
+Use the host's `id` to change information about that host.
 
 ## URL
 
@@ -23,7 +23,7 @@ Use the host's `id` parameter and change information about that host.
 
 ## Request body
 
-**Important** The request body replaces all the current properties of the host. For properties that you do not want to change, you must use their current values in the request body.
+**Important** The request body replaces all the current properties of the host, except the unique IDs. For properties that you do not want to change, you must use their current values in the request body.
 
 ```js
 [

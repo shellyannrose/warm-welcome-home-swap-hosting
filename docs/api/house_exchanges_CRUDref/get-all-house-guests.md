@@ -1,6 +1,6 @@
 # Get a list of all house guests for a specific host
 
-Use the host's `host_id` to get a list of all the guests for a host.
+Use the `host_id` to get a list of all the guests for a host.
 
 ## URL
 
