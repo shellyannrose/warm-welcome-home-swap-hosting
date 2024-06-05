@@ -1,12 +1,12 @@
 # Remove a specific task for a guest from the host's account
 
-Use the host's `host_id` and the guest's `guest_id` and remove a task for a guest.
+Use the host's `host_id` and the guest's `guest_id` to remove a task for a guest.
 
 ## URL
 
 ```shell
 
-{DELETE}{server_url}/prep-checks?{host_id}/{guest_id}/{id}
+{DELETE}{server_url}/prep-checks?host_id={value}&guest_id={value}&id={value}
 
 ```
 

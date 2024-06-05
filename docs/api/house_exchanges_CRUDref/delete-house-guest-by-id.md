@@ -7,7 +7,7 @@ Use the host's `host_id` and the guest `id` to remove a guest from the host's ac
 ```shell
 
 
-{DELETE}{server_url}/guests?{host_id}={value}&{id}={value}
+{DELETE}{server_url}/guests?host_id={value}&id={value}
 
 ```
 
