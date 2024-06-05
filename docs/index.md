@@ -59,6 +59,3 @@ generally `http://localhost:3000`.
 * [hosts resource](api/users.md)
 * [guests resource](api/house_exchanges.md)
 * [prep-checks resource](api/prep_checks.md)
-* [Endpoint index](TBD)
-* [Handling errors](TBD)
-* [Properties cheat sheet for successful requests](TBD)
