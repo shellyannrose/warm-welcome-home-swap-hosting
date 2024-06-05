@@ -2,6 +2,7 @@
 
 Use the `host_id` and the guest `id` to remove a guest from the host's account.
 
+
 ## URL
 
 ```shell

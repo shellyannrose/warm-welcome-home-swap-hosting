@@ -6,7 +6,9 @@ Use the `last_name` parameter to get a list of hosts that have a specific last n
 
 ```shell
 
+
 {GET}{server_url}/hosts?last_name={value}
+
 ```
 
 ## Parameters

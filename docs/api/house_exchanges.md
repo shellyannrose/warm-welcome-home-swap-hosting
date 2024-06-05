@@ -55,6 +55,7 @@ The `guests` resource supports the operations below.
 * [Get all house guests for a host](../api/house_exchanges_CRUDref/get-all-house-guests.md)
 * [Get reciprocal house swaps](../api/house_exchanges_CRUDref/get-a-reciprocal-house-swap.md)
 
+
 ## UPDATE (PATCH/PUT)
 
 * [Update (PATCH) number of guests by id](../api/house_exchanges_CRUDref/update-patch-number-of-guests-by-id.md)
