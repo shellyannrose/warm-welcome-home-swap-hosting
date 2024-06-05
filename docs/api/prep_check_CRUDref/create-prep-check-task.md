@@ -1,6 +1,6 @@
 # Add a task to prepare for a guest
 
-Use the host's `host_id` and the guest's `guest_id` and create a new task for a guest.
+Use the `host_id` and `guest_id` to create a new task for a guest.
 
 ## URL
 

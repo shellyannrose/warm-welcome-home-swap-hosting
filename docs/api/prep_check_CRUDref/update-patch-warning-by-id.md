@@ -1,19 +1,21 @@
-# Update (PATCH) the total number of people coming with a guest
+# Update (PATCH) the warning time for a task
 
-Use the host's `host_id` and the guest's `guest_id` and update the warning minutes for a task for a guest.
+Use the `host_id`, `guest_id`, and prep-checks `id` to update the warning minutes for a task for a guest.
+
 ## URL
 
 ```shell
 
-{PATCH}{server_url}/house-exchanges/{user_id}/{id}
+{PATCH}{server_url}/prep-checks?host_id={value}&guest_id={value}&id={value}
 ```
 
 ## Parameters
 
 | Property name | Type | Description |
 | ------------- | ----------- | ----------- |
-| `user_id` | Number | Refers to the host id in the users resource |
-| `id` | Number | Service-generated unique ID for the house exchange |
+| `host_id` | Number | Refers to the host id in the hosts resource |
+| `guest_id` | Number |Refers to the guest id in the guests resource |
+| `id` | Number | Service-generated unique ID for the task in the prep-checks resource |
 
 ## Request headers
 
@@ -28,31 +30,30 @@ Use the host's `host_id` and the guest's `guest_id` and update the warning minut
 ```js
 [
     {
-      "number-of-guests": 5      
+      "warning": -7      
     }
 ]
 ```
 
 ## Return body
 
-The following example shows the response if the host's `user_id` is 2 and the house-exchanges `id` is 3.
+The following example shows the response if the `host_id` is 2, `guest_id` is 3, and prep-checks `id` is 3.
 
 ```js
 [
     {
-      "user_id": 2,
-      "arrival-date": "2024-08-07T11:00",
-     "departure-date": "2024-08-14T12:00", 
-      "guest-names": "Pat",
-      "last-name-primary": "Brent",
-      "number-of-guests": "5",
-     "type-of-exchange": "Guest Points",  
+      "host_id": 2,
+      "guest_id": 3,
+      "title": "Leave welcome treats for guests",
+      "room-area": "Kitchen",
+      "due-date": "2024-08-06",
+      "warning": "-7",
       "id": 3
     }
 ]
 ```
 
-**Note** You can use a similar request to update `guest-names`. Just replace the parameter in the curly braces {} of the URL in the PATCH request. In this resource, you can only change `guest-names` and `number-of-guests`.
+**Note** You can use a similar request to update the other properties. Just replace the parameters and values in the request body.
 
 ## Return status
 

@@ -1,6 +1,6 @@
 # Update (PUT) guest names
 
-Use the host's `host_id` and the guest's `id` and change the guest names.
+Use the `host_id` and the guest's `id` to change the guest names.
 
 ## URL
 
@@ -25,7 +25,7 @@ Use the host's `host_id` and the guest's `id` and change the guest names.
 
 ## Request body
 
-**Important** The request body replaces all the current properties of the guest. For properties that you do not want to change, you must use their current values in the request body.
+**Important** The request body replaces all the current properties of the guest, except the unique IDs. For properties that you do not want to change, you must use their current values in the request body.
 
 ```js
 [

@@ -1,6 +1,6 @@
 # Update (PATCH) a specific host's email
 
-Use the host's `id` parameter and change the email address for that host.
+Use the host's `id` to change the email address for that host.
 
 ## URL
 

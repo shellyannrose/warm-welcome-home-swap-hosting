@@ -1,6 +1,6 @@
 # Get a list of all hosts in the service
 
-This retrieves a list of all hosts who subscribe to the service.
+Get a list of all hosts who subscribe to the service.
 
 ## URL
 

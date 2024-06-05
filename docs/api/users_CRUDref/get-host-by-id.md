@@ -1,6 +1,6 @@
 # Find a specific host using the id parameter
 
-Use the host's `id` parameter to get information about a specific host.
+Use the host's `id` to get information about a specific host.
 
 ## URL
 

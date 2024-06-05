@@ -1,6 +1,6 @@
 # Get a list of a host's reciprocal house swaps
 
-Get a list of all the reciprocal house exchanges for a specific host.
+Use the `host_id` to get a list of all the reciprocal house exchanges for a specific host.
 
 ## URL
 
@@ -41,7 +41,7 @@ The following example shows the response for the host whose `host_id` is 1. It s
   ]
 ```
 
-**Note** You can use a request like this to find a value for other properties. These include `arrival-date`,`departure-date`,`last-name-primary`, `number-of-guests`, `guest-names`, and `id`. To do that, change the parameter and value at the end of the request URL.
+**Note** You can use a request like this to find a value for other properties. To do that, change the parameter and value at the end of the request URL.
 
 ## Return status
 

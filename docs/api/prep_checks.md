@@ -51,18 +51,12 @@ The `prep-checks` resource supports the operations below.
 ## READ (GET)
 
 * [Get all tasks for a host](../api/prep_check_CRUDref/get-all-prep-check-tasks.md)
-* [Get a task by its id](tbd)
-* [Get a task by a guest id](tbd)
-* [Get a task's title by its id](tbd)
-* [Get a task's title by guest_id](tbd)
-* [Get a task's due date for a guest](../api/prep_check_CRUDref/get-prep-check-due-date-by-id.md)
-* [Get a warning number by task id](tbd)
-* [Get a warning number by a guest id](tbd)
+* [Get tasks for a specific due date](../api/prep_check_CRUDref/get-prep-check-tasks-by-due-date)
 
 ## UPDATE (PUT/PATCH)
 
-* [Update (PUT) a room or area for a task](../api/prep_check_CRUDref/update-put-room-area-by-guest-id.md)
 * [Update (PATCH) a task's warning time](../api/prep_check_CRUDref/update-patch-warning-by-id.md)
+* [Update (PUT) a room or area for a task](../api/prep_check_CRUDref/update-put-room-area-by-guest-id.md)
 
 ## DELETE (DELETE)
 
