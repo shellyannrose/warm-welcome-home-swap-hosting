@@ -68,4 +68,10 @@ First, confirm that your local service is running in a command window. Use the f
 
 ## Next steps
 
-Good on ya! Looks like your host will be ready for this guest. After doing this tutorial in Postman, you might like to repeat it in your favorite programming language. To do this, adapt the values from the tutorial to the properties and arguments that the language uses to make REST API calls.
+Good on ya! Looks like your host will be ready for this guest. 
+
+After doing this tutorial in Postman, you might like to repeat it in your favorite programming language. To do this, adapt the values from the tutorial to the properties and arguments that the language uses to make REST API calls.
+
+## Related topics
+
+[Prep-checks resource](../api/prep_checks.md)

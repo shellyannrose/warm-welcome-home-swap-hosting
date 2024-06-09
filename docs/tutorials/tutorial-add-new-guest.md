@@ -76,3 +76,7 @@ First, confirm that your local service is running in a command window. Use the f
 You just added your first guest. You're doing great! Now, [add a task](tutorial-add-new-task.md) for that guest.
 
 After doing this tutorial in Postman, you might like to repeat it in your favorite programming language. To do this, adapt the values from the tutorial to the properties and arguments that the language uses to make REST API calls.
+
+## Related topics
+
+[Guests resource](../api/house_exchanges.md)
