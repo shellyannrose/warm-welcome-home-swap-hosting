@@ -1,12 +1,16 @@
 # Add a task to prepare for a guest
 
-Use the `host_id` and `guest_id` to create a new task for a guest.
+Create a new task for a guest using the `host_id` and `guest_id`.
+
+## HTTP Method
+
+POST
 
 ## URL
 
 ```shell
 
-{POST}{server_url}/prep-checks/
+{server_url}/prep-checks/
 ```
 
 ## Parameters
@@ -29,17 +33,17 @@ Use the `host_id` and `guest_id` to create a new task for a guest.
 ## Request body
 
 ```js
-[
+
    {
-    "host_id": 1,
+    "host_id": 4,
     "guest_id": 1,
-    "title": "Bed linen change",
+    "title": "Set up VPN",
     "room-area": "Bedrooms",
-    "due-date": "2024-08-10",
+    "due-date": "2050-09-03",
     "warning": "-12"
         
    }
-]
+
 ```
 
 ## Return body
@@ -49,11 +53,11 @@ The following example shows the response for a host whose `host_id` is 1 and `gu
 ```js
 [
      {
-      "host_id": 1,
+      "host_id": 4,
       "guest_id": 1,
-      "title": "Bed linen change",
+      "title": "Set up VPN",
       "room-area": "Bedrooms",
-      "due-date": "2024-08-10",
+      "due-date": "2050-09-03",
       "warning": "-12",
       "id": 1 
     }

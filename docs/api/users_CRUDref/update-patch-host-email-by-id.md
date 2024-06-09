@@ -1,12 +1,16 @@
 # Update (PATCH) a specific host's email
 
-Use the host's `id` to change the email address for that host.
+Change only the email address for a specific host's `id`.
+
+## HTTP Method
+
+PATCH
 
 ## URL
 
 ```shell
 
-{PATCH}{server_url}/hosts/{id}
+{server_url}/hosts/{id}
 ```
 
 ## Parameters
@@ -26,11 +30,9 @@ Use the host's `id` to change the email address for that host.
 **Important** This request only changes the properties that you place in the request body. All other properties stay the same.
 
 ```js
-[
     {
       "email": "nicki.weimann@example.com"      
     }
-]
 ```
 
 ## Return body

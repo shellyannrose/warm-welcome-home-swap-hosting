@@ -1,12 +1,16 @@
 # Update (PATCH) the total number of people coming with a guest
 
-Use the `host_id` and the guest `id` to change the number of guests.
+Change the only number of guests using the `host_id` and the guest `id`.
+
+## HTTP Method
+
+PATCH
 
 ## URL
 
 ```shell
 
-{PATCH}{server_url}/guests?host_id={value}&id={value}
+{server_url}/guests?host_id={value}&id={value}
 
 ```
 
@@ -28,11 +32,11 @@ Use the `host_id` and the guest `id` to change the number of guests.
 **Important** This request only changes the properties that you place in the request body. All other properties stay the same.
 
 ```js
-[
+
     {
       "number-of-guests": 5      
     }
-]
+
 ```
 
 ## Return body
@@ -47,7 +51,7 @@ The following example shows the response if the `host_id` is 2 and the guest `id
       "departure-date": "2024-08-14T12:00", 
       "guest-names": "Pat",
       "last-name-primary": "Brent",
-      "number-of-guests": "5",
+      "number-of-guests": 5,
       "type-of-exchange": "Guest Points",  
       "id": 3
     }

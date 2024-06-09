@@ -1,12 +1,16 @@
 # Find all tasks for a due date
 
-Use the `due-date` to list the tasks for that date.
+List all the tasks for a specific `due-date`.
+
+## HTTP Method
+
+GET
 
 ## URL
 
 ```shell
 
-{GET}{server_url}/prep-checks?due-date=2024-09-04
+{server_url}/prep-checks?due-date=2024-09-04
 ```
 
 ## Parameters

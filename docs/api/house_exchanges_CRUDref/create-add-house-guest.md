@@ -1,12 +1,16 @@
 # Add a house guest to the host's account
 
-This creates a record of a new house guest for a specific host's `host_id`.
+Add a new house guest for a specific `host_id`.
+
+## HTTP Method
+
+POST
 
 ## URL
 
 ```shell
 
-{POST}{server_url}/guests/
+{server_url}/guests/
 
 ```
 
@@ -31,18 +35,18 @@ This creates a record of a new house guest for a specific host's `host_id`.
 ## Request body
 
 ```js
-[
+
    {
-      "host_id": 1,
-      "arrival-date": "2024-09-05T13:00",
-      "departure-date": "2024-09-13T12:00", 
-      "guest-names": "Sarah and John",
-      "last-name-primary": "Jones",
-      "number-of-guests ": "3",
-      "type-of-exchange ": "Reciprocal"" 
+      "host_id": 4,
+      "arrival-date": "2050-09-05T13:00",
+      "departure-date": "2090-09-13T12:00", 
+      "guest-names": "Sarah Conner",
+      "last-name-primary": "Reese",
+      "number-of-guests ": 3,
+      "type-of-exchange ": "Guest Points"
     
    }
-]
+
 ```
 
 ## Return body
@@ -52,14 +56,14 @@ The following example shows the response for a host whose `host_id` is 1. The in
 ```js
 [
      {
-      "host_id": 1,
-      "arrival-date": "2024-09-05T13:00",
-      "departure-date": "2024-09-13T12:00", 
-      "guest-names": "Sarah and John",
-      "last-name-primary": "Jones",
-      "number-of-guests ": "3",
-      "type-of-exchange ": "Reciprocal",  
-      "id": 2
+      "host_id": 4,
+      "arrival-date": "2050-09-05T13:00",
+      "departure-date": "2090-09-13T12:00", 
+      "guest-names": "Sarah Conner",
+      "last-name-primary": "Reese",
+      "number-of-guests ": 3,
+      "type-of-exchange ": "Guest Points",  
+      "id": 1
      }
 
 ]

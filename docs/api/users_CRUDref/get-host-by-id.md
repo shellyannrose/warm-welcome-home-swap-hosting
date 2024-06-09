@@ -1,12 +1,16 @@
-# Find a specific host using the id parameter
+# Find a specific host
 
-Use the host's `id` to get information about a specific host.
+Get information about a specific host using the host's `id`.
+
+## HTTP Method
+
+GET
 
 ## URL
 
 ```shell
 
-{GET}{server_url}/hosts/{id}
+{server_url}/hosts/{id}
 ```
 
 ## Parameters

@@ -1,13 +1,17 @@
 # Find hosts by their last name
 
-Use the `last_name` parameter to get a list of hosts that have a specific last name.
+Get a list of hosts that have a specific last name using the `last_name` parameter.
+
+## HTTP Method
+
+GET
 
 ## URL
 
 ```shell
 
 
-{GET}{server_url}/hosts?last_name={value}
+{server_url}/hosts?last_name={value}
 
 ```
 

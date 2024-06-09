@@ -1,14 +1,17 @@
 # Remove a specific house guest from the host's account
 
-Use the `host_id` and the guest `id` to remove a guest from the host's account.
+Remove a guest using the `host_id` and the guest `id`.
 
+## HTTP Method
+
+DELETE
 
 ## URL
 
 ```shell
 
 
-{DELETE}{server_url}/guests?host_id={value}&id={value}
+{server_url}/guests?host_id={value}&id={value}
 
 ```
 
@@ -41,7 +44,7 @@ The following example shows the response if the `host_id` is 3 and the guest's i
       "departure-date": "2024-09-08T12:00", 
       "guest-names": "Peter and Anna",
       "last-name-primary": "Stapleton",
-      "number-of-guests ": "6",
+      "number-of-guests ": 6,
       "type-of-exchange ": "Reciprocal",  
       "id": 4
     }

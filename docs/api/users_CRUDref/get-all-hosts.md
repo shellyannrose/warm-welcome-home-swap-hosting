@@ -2,11 +2,15 @@
 
 Get a list of all hosts who subscribe to the service.
 
+## HTTP Method
+
+GET
+
 ## URL
 
 ```shell
 
-{GET}{server_url}/hosts/
+{server_url}/hosts/
 
 ```
 
@@ -52,8 +56,8 @@ The following example shows the response.
       "email": "n.weimann@example.com",
       "id": 4
     }
-  ],
-```
+]
+  ```
 
 ## Return status
 
