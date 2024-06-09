@@ -1,12 +1,16 @@
 # Get a list of a host's reciprocal house swaps
 
-Use the `host_id` to get a list of all the reciprocal house exchanges for a specific host.
+Get a list of all the reciprocal house swaps for a `host_id`.
+
+## HTTP Method
+
+GET
 
 ## URL
 
 ```shell
 
-{GET}{server_url}/guests?host_id={value}&type-of-exchange=Reciprocal
+{server_url}/guests?host_id={value}&type-of-exchange=Reciprocal
 
 ```
 
@@ -34,7 +38,7 @@ The following example shows the response for the host whose `host_id` is 1. It s
       "departure-date": "2024-09-13T12:00", 
       "guest-names": "Sarah and John",
       "last-name-primary": "Jones",
-      "number-of-guests": "3",
+      "number-of-guests": 3,
       "type-of-exchange": "Reciprocal",  
       "id": 2
     }

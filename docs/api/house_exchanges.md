@@ -25,7 +25,7 @@ Sample `guests` resource
     "departure-date": "2024-08-20T12:00", 
     "guest-names": "Bill and Katie",
     "last-name-primary": "Collison",
-    "number-of-guests ": "5",
+    "number-of-guests ": 5,
     "type-of-exchange ": "Guest Points",  
     "id": 1
 }
@@ -54,7 +54,6 @@ The `guests` resource supports the operations below.
 
 * [Get all house guests for a host](../api/house_exchanges_CRUDref/get-all-house-guests.md)
 * [Get reciprocal house swaps](../api/house_exchanges_CRUDref/get-a-reciprocal-house-swap.md)
-
 
 ## UPDATE (PATCH/PUT)
 

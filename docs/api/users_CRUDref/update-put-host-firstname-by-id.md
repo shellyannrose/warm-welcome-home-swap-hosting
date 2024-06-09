@@ -1,12 +1,16 @@
 # Update (PUT) a specific host's first name
 
-Use the host's `id` to change information about that host.
+Change a host's first name using the host's `id`.
+
+## HTTP Method
+
+PUT
 
 ## URL
 
 ```shell
 
-{PUT}{server_url}/hosts/{id}
+{server_url}/hosts/{id}
 ```
 
 ## Parameters
@@ -26,13 +30,11 @@ Use the host's `id` to change information about that host.
 **Important** The request body replaces all the current properties of the host, except the unique IDs. For properties that you do not want to change, you must use their current values in the request body.
 
 ```js
-[
     {
       "last_name": "Weimann",
       "first_name": "Nicholas",
       "email": "n.weimann@example.com"      
     }
-]
 ```
 
 ## Return body

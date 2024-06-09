@@ -1,12 +1,16 @@
 # Add a new host to the service
 
-This creates a record of a new host who subscribes to the service.
+Add a new host who subscribes to the service.
+
+## HTTP Method
+
+POST
 
 ## URL
 
 ```shell
 
-{POST}{server_url}/hosts/
+{server_url}/hosts/
 ```
 
 ## Parameters
@@ -26,14 +30,14 @@ This creates a record of a new host who subscribes to the service.
 ## Request body
 
 ```js
-[
+
    {
-    "last_name": "Smith",
-    "first_name": "Wallace",
-    "email": "w.smith@example.com"
+    "last_name": "Anderson",
+    "first_name": "Neo",
+    "email": "n.matrix@example.com"
     
    }
-]
+
 ```
 
 ## Return body
@@ -43,10 +47,10 @@ The following example shows the response. The information should be the same as 
 ```js
 [
     {
-        "last_name": "Smith",
-        "first_name": "Wallace",
-        "email": "w.smith@example.com",
-        "id": 1
+        "last_name": "Anderson",
+        "first_name": "Neo",
+        "email": "n.matrixh@example.com",
+        "id": 4
     }
 ]
 ```

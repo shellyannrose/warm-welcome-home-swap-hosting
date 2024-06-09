@@ -1,12 +1,16 @@
 # Update (PUT) guest names
 
-Use the `host_id` and the guest's `id` to change the guest names.
+Change the guest names using the `host_id` and the guest's `id`.
+
+## HTTP Method
+
+PUT
 
 ## URL
 
 ```shell
 
-{PUT}{server_url}/guests?host_id={value}&id={value}
+{server_url}/guests?host_id={value}&id={value}
 
 ```
 
@@ -28,16 +32,16 @@ Use the `host_id` and the guest's `id` to change the guest names.
 **Important** The request body replaces all the current properties of the guest, except the unique IDs. For properties that you do not want to change, you must use their current values in the request body.
 
 ```js
-[
+
     {
       "arrival-date": "2024-09-05T13:00",
       "departure-date": "2024-09-13T12:00", 
       "guest-names": "John and Marlena",
       "last-name-primary": "Jones",
-      "number-of-guests": "3",
+      "number-of-guests": 3,
       "type-of-exchange": "Reciprocal",  
     }
-]
+
 ```
 
 ## Return body
@@ -52,7 +56,7 @@ The following example shows the response if the `host_id` is 1 and the guest's `
       "departure-date": "2024-09-13T12:00", 
       "guest-names": "John and Marlena",
       "last-name-primary": "Jones",
-      "number-of-guests": "3",
+      "number-of-guests": 3,
       "type-of-exchange": "Reciprocal",  
       "id": 2
     }

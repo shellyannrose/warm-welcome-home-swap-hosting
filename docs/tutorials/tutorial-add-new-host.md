@@ -6,7 +6,7 @@ Expect this tutorial to take about 15 minutes to complete.
 
 ## Before you start
 
-First confirm that your local service is running in the command window. Use the following:
+First, confirm that your local service is running in a command window. Use the following:
 
     ```shell
     
@@ -21,7 +21,7 @@ First confirm that your local service is running in the command window. Use the 
 1. Open the Postman app on your desktop.
 1. In the Postman app, create a new request and enter the values below.
     * **METHOD**: POST
-    * **URL**: `{{base_url}}/hosts`
+    * **URL**: `{server_url}/hosts`
     * **Headers**:
         * `Content-Type: application/json`
     * **Request body**:
@@ -36,6 +36,7 @@ First confirm that your local service is running in the command window. Use the 
 1. In the Request body, enter the JSON script for the properties as shown below.
 
    ```js
+
     {
        "last_name": "Rochester",
        "first_name": "Edward",
@@ -46,15 +47,18 @@ First confirm that your local service is running in the command window. Use the 
 
 1. In the Postman app, make the request by choosing **Send**. The Response body should look like the output below. Note that the content should be the same as you entered in the **Request body**. Also, the response should now include the new host's unique `id`.
 
-   ```js
+```js
+
     {
     "last_name": "Rochester",
     "first_name": "Edward",
     "email": "ed.rochester@example.com",
-    "id": 1
-    }
+    "id": 5
+    } 
    ```
 
 ## Next steps
 
-Congrats on adding your first host! After doing this tutorial in Postman, you might like to repeat it in your favorite programming language. To do this, adapt the values from the tutorial to the properties and arguments that the language uses to make REST API calls.
+Congrats on adding your first host! Let's [add your first guest](/docs/tutorials/tutorial-add-new-guest.md).
+
+After doing this tutorial in Postman, you might like to repeat it in your favorite programming language. To do this, adapt the values from the tutorial to the properties and arguments that the language uses to make REST API calls.

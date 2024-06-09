@@ -1,12 +1,16 @@
 # Get a list of all house guests for a specific host
 
-Use the `host_id` to get a list of all the guests for a host.
+Get a list of all the guests for a `host_id`.
+
+## HTTP Method
+
+GET
 
 ## URL
 
 ```shell
 
-{GET}{server_url}/guests?host_id={value}
+{server_url}/guests?host_id={value}
 
 ```
 
@@ -34,7 +38,7 @@ The following example response shows the guests for a host whose `host_id` is 2.
       "departure-date": "2024-08-14T12:00", 
       "guest-names": "Pat",
       "last-name-primary": "Brent",
-      "number-of-guests ": "2",
+      "number-of-guests ": 2,
       "type-of-exchange": "Guest Points",  
       "id": 3
     },

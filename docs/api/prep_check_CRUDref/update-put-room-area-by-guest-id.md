@@ -1,12 +1,16 @@
 # Update (PUT) the room or area for a task
 
-Use the `host_id`, `guest_id`, and prep-checks `id` to update the room or area for a task.
+Change the room or area for a task using the `host_id`, `guest_id`, and prep-checks `id`.
+
+## HTTP Method
+
+PUT
 
 ## URL
 
 ```shell
 
-{PUT}{server_url}/prep-checks?host_id={value}&guest_id={value}&id={value}
+{server_url}/prep-checks?host_id={value}&guest_id={value}&id={value}
 ```
 
 ## Parameters
@@ -28,7 +32,7 @@ Use the `host_id`, `guest_id`, and prep-checks `id` to update the room or area f
 **Important** The request body replaces all the current properties of the task, except the unique IDs. For properties that you do not want to change, you must use their current values in the request body.
 
 ```js
-[
+
     {
       
       "title": "Move car",
@@ -36,7 +40,7 @@ Use the `host_id`, `guest_id`, and prep-checks `id` to update the room or area f
       "due-date": "2024-09-03",
       "warning": "-72"
     }
-]
+
 ```
 
 ## Return body

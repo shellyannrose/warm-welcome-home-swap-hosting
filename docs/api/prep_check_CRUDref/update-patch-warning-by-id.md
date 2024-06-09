@@ -1,12 +1,16 @@
 # Update (PATCH) the warning time for a task
 
-Use the `host_id`, `guest_id`, and prep-checks `id` to update the warning minutes for a task for a guest.
+Update only the warning minutes for a task using the `host_id`, `guest_id`, and prep-checks `id`.
+
+## HTTP Method
+
+PATCH
 
 ## URL
 
 ```shell
 
-{PATCH}{server_url}/prep-checks?host_id={value}&guest_id={value}&id={value}
+{server_url}/prep-checks?host_id={value}&guest_id={value}&id={value}
 ```
 
 ## Parameters
@@ -28,11 +32,11 @@ Use the `host_id`, `guest_id`, and prep-checks `id` to update the warning minute
 **Important** This request only changes the properties that you place in the request body. All other properties stay the same.
 
 ```js
-[
+
     {
       "warning": -7      
     }
-]
+
 ```
 
 ## Return body
