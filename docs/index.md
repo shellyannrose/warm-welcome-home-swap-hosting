@@ -50,9 +50,7 @@ Now that you know a bit about this service, [get started](tutorials/tutorial-get
 Learn how to do common tasks within the service.
 
 * [Add a new host to the service](tutorials/tutorial-add-new-host.md)
-
 * [Add a new guest for a host](tutorials/tutorial-add-new-guest.md)
-
 * [Add a task for a host to prepare for a guest](tutorials/tutorial-add-new-task.md)
 
 ## API reference docs
