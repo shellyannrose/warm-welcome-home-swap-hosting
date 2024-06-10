@@ -55,4 +55,4 @@ The `hosts` resource supports the operations below.
 
 ## DELETE (DELETE)
 
-* [Remove host from service by id](../api/users_CRUDref/delete-host-by-id.md)
+* [Remove host from the service by id](../api/users_CRUDref/delete-host-by-id.md)

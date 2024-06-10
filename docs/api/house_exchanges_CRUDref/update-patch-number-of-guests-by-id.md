@@ -1,6 +1,6 @@
 # Update (PATCH) the total number of people coming with a guest
 
-Change the only number of guests using the `host_id` and the guest `id`.
+Change only number of guests using the `host_id` and the guest `id`.
 
 ## HTTP Method
 
