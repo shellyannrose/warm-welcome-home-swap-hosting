@@ -63,6 +63,6 @@ After doing this tutorial in Postman, you might like to repeat it in your favori
 
 ## Related topics
 
-### [Add a new guest for a host](tutorials/tutorial-add-new-guest.md)
+### [Add a new guest for a host](tutorial-add-new-guest.md)
 
-### [Add a task for a host to prepare for a guest](tutorials/tutorial-add-new-task.md)
+### [Add a task for a host to prepare for a guest](tutorial-add-new-task.md)
