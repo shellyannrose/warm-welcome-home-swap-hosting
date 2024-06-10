@@ -21,13 +21,11 @@ Using spreadsheets or written notes to track this information creates more probl
 
 ## The solution: a service for hosts to manage their guest stays
 
-For a hassle-free solution, use the Gracious Host service. It is a cloud-based solution that has an API interface that is easy to use. It:
+The Gracious Host makes it easy for hosts to give their guests a warm welcome. It is a cloud-based solution that has an API interface that is simple to use. The service:
 
 * Simplifies the tracking of dates, times, tasks, and people
 * Ensures that hosts are well-prepared for their guests
 * Stores all hosting information in one place
-
-The Gracious Host makes it easy for hosts to give their guests a warm welcome.
 
 ## Resources and basic workflow
 
