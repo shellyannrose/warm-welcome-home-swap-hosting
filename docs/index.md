@@ -60,8 +60,8 @@ Learn how to do common tasks within the service.
 Detailed descriptions of the service's resources.
 
 The API reference docs refer to a `{server_url}` when they
-refer to the URL of a resource. The `{base_url}` value depends
-on the installation of the service.
+refer to the URL of a resource. This is synonymous with `{base_url}`. Its value depends
+on how you implement the service.
 
 When running a local test, the `{base_url}` is
 generally `http://localhost:3000`.
@@ -69,3 +69,7 @@ generally `http://localhost:3000`.
 * [hosts resource](api/users.md)
 * [guests resource](api/house_exchanges.md)
 * [prep-checks resource](api/prep_checks.md)
+
+## Contact us
+
+We are here to help. Send us an email at help@gracioushost.com.
