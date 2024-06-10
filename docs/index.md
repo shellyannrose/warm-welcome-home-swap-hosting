@@ -1,7 +1,7 @@
 
 # The Gracious Host Service
 
-Give your guests a welcome to write home about!
+![bed and flower](bedflower.jpg) Give your guests a welcome to write home about!
 
 You are a world traveler who wants to live like a local when you visit new places. Home swapping is one way to do this, for a fraction of the housing cost. Your next destination? The Yukon. So, you have traded your home in Ireland with a Canadian who loves the poet Yeats.
 
