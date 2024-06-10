@@ -76,4 +76,4 @@ generally `http://localhost:3000`.
 
 ## Contact us
 
-We are here to help. Send us an email at help@gracioushost.com.
+We are here to help. Send us an email at [help@gracioushost.com].
