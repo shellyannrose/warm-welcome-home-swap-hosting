@@ -13,12 +13,13 @@ First, confirm that your local service is running in a command window. Use the f
          cd <your-github-workspace>/warm-welcome-home-swap-hosting/api
         # Run the service and monitor its database file for updates
         json-server -w warm-welcome-home-swap-hosting-db-source.json
-
+        
     ```
 
 ## Start the Postman app
 
 1. Open the Postman app on your desktop.
+1. [Find the host id](../api/users_CRUDref/get-all-hosts.md) using a GET request.
 1. In the Postman app, create a new request and enter the values below.
     * **METHOD**: POST
     * **URL**: `{server_url}/guests`
