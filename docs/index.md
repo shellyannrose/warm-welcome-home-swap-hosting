@@ -27,8 +27,6 @@ The Gracious Host makes it easy for hosts to give their guests a warm welcome. I
 * Ensures that hosts are well-prepared for their guests
 * Stores all hosting information in one place
 
-The Gracious Host makes it easy for hosts to give their guests a warm welcome.
-
 ## Resources and basic workflow
 
 There are three resources:
@@ -54,10 +52,6 @@ Learn how to do common tasks within the service.
 * [Add a new host to the service](tutorials/tutorial-add-new-host.md)
 * [Add a new guest for a host](tutorials/tutorial-add-new-guest.md)
 * [Add a task for a host to prepare for a guest](tutorials/tutorial-add-new-task.md)
-
-### [Add a new guest for a host](tutorials/tutorial-add-new-guest.md)
-
-### [Add a task for a host to prepare for a guest](tutorials/tutorial-add-new-task.md)
 
 ## API reference docs
 
