@@ -22,7 +22,7 @@ long-term support (LTS) version of the OS
     * **TIP**: If you use a fork of the repository (repo), create a working branch for the tutorial. For each tutorial, create a new branch. Doing this stops a mistake in one branch from affecting your work in another.
 * A copy of the [Postman desktop app](https://www.postman.com/downloads/). You will run the Gracious Host service on your PC using an `http://localhost` hostname. Because of this, the web-version of Postman cannot perform the exercises.
 
-## Test your development system
+### Test your development system
 
 To test your system, follow the steps below.
 
@@ -76,11 +76,11 @@ If you do not get a list of hosts or receive an error, stop. Investigate and fix
 
 If you see the list of hosts from the service, you are ready to do the tutorials.
 
-# Add a new host to the service
+## Add a new host to the service
 
 Expect this tutorial to take about 15 minutes to complete.
 
-## Run the local service
+### Run the local service
 
 First, confirm that your local service is running in a command window. Use the following:
 
@@ -94,7 +94,7 @@ First, confirm that your local service is running in a command window. Use the f
     start-server.bat
     ```
 
-## Start the Postman app
+### Start the Postman app
 
 1. Open the Postman app on your desktop.
 1. In the Postman app, create a new request and enter the values below.
