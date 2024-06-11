@@ -6,9 +6,9 @@
 
 You must follow the steps below before you try the tutorials for the Gracious Host service. These steps should take about 20 minutes to complete.
 
-### Tools to complete the tutorials in this section
+### Tools to complete the tutorials
 
-The instructions below are for a Windows system (PC). For a MacOS system, see the [MacOS installation guide](macos-installation).
+The instructions below are for a Windows system (PC). For a MacOS system, see the [MacOS installation guide](../macos-installation.mdmacos-installation).
 
 * A [GitHub account](https://github.com)
 * A PC that is running a current or
@@ -19,7 +19,7 @@ long-term support (LTS) version of the OS
 * A current or LTS version of [node.js](https://nodejs.org/en/). Node Package Manager (npm) installs when you install node.js.
 * A current version of [json-server](https://www.npmjs.com/package/json-server). To install it, open a command window and run ```npm install -g json-server```.
 * A current copy of the service's database file (`warm-welcome-home-swap-hosting-db-source`). You can get this by syncing your fork.
-    * **TIP**: If you use a fork of the repository (repo), create a working branch for the tutorial. For each tutorial, create a new branch. Doing this stops a mistake in one branch from affecting your work in another.
+  * **TIP**: If you use a fork of the repository (repo), create a working branch for the tutorial. For each tutorial, create a new branch. Doing this stops a mistake in one branch from affecting your work in another.
 * A copy of the [Postman desktop app](https://www.postman.com/downloads/). You will run the Gracious Host service on your PC using an `http://localhost` hostname. Because of this, the web-version of Postman cannot perform the exercises.
 
 ### Test your development system
