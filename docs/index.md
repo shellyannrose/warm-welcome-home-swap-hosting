@@ -15,7 +15,7 @@ A host's job is to prepare for guests and ensure that the home swap goes smoothl
 
 * Who is coming
 * When guests arrive and leave
-* What tasks a host must complete before guests arrives
+* What tasks they must complete before guests arrive
 
 Using spreadsheets or written notes to track this information creates more problems than they solve.
 
