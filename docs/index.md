@@ -5,26 +5,26 @@
 
 **_Give your guests a welcome to write home about!_**
 
-You are a world traveler who wants to live like a local when you visit new places. Home swapping is one way to do this, for a fraction of the housing cost. Your next destination? The Yukon. So, you have traded your home in Ireland with a Canadian who loves the poet Yeats.
+Your clients are world travelers who want to live like locals when they visit new places. And you run a home swapping website that makes that possible, for a fraction of the housing cost. Your new client's next destination? The Yukon. So, she agrees to a swap of her home in Ireland for that of a Canadian who loves the poet, Yeats.
 
 Now what?
 
 ## The problem: a host’s harried life  
 
-As a host, it is your job to prepare for your guest and ensure that the home swap goes smoothly. This includes tracking:
+A host's job is to prepare for guests and ensure that the home swap goes smoothly. This includes tracking:
 
 * Who is coming
-* When your guest arrives and leaves
-* What tasks you must complete before the guest arrives
+* When guests arrive and leave
+* What tasks they must complete before guests arrive
 
 Using spreadsheets or written notes to track this information creates more problems than they solve.
 
 ## The solution: a service for hosts to manage their guest stays
 
-The Gracious Host makes it easy for hosts to give their guests a warm welcome. It is a cloud-based solution that has an API interface that is simple to use. The service:
+The Gracious Host makes it easy for hosts to give their guests a warm welcome. It is a cloud-based solution that has an API interface that is simple to use. When you add the Gracious Host to your site, your clients will enjoy the benefits of a service that:
 
 * Simplifies the tracking of dates, times, tasks, and people
-* Ensures that hosts are well-prepared for their guests
+* Ensures that they are well-prepared for their guests
 * Stores all hosting information in one place
 
 ## Resources and basic workflow
@@ -43,7 +43,7 @@ Possible app integrations include:
 * Vacation (travel) bookings
 * Rental property management
 
-Now that you know a bit about this service, [get started](tutorials/tutorial-get-started.md) by learning how to add a new host to the service.
+Now that you know a bit about our service, read our [Get started](tutorials/tutorial-get-started.md) guide. You will learn how easy it is to help your clients give their guests a welcome to write home about!
 
 ## Tutorials
 
@@ -70,4 +70,5 @@ generally `http://localhost:3000`.
 
 ## Contact us
 
-We are here to help. Send us an email at [help@gracioushost.com](gracioushost.com).
+We are here to help. Send us an email at [help@gracioushost.com](gracioushost.com), or call us at (888) 555-2468, M-F 9 a.m - 5 p.m Eastern.
+
