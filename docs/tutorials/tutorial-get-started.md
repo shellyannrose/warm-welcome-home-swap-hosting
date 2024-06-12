@@ -8,7 +8,7 @@ You must follow the steps below before you try the tutorials for the Gracious Ho
 
 ### Tools to complete the tutorials
 
-The instructions below are for a Windows system (PC). For a MacOS system, see the [MacOS installation guide](../macos-installation.md).
+The instructions below are for a Windows system (PC).
 
 * A [GitHub account](https://github.com)
 * A PC that is running a current or
