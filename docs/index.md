@@ -3,7 +3,7 @@
 
 **_Give your guests a welcome to write home about!_**
 
-Your clients are world travelers who want to live like locals when they visit new places. And you run a home swapping website that makes that possible, for a fraction of the housing cost. Your new client's next destination? The Yukon. So, she agrees to a swap of her home in Ireland for that of a Canadian who loves the poet, Yeats.
+Your clients are world travelers who want to live like locals when they visit new places. You run a home swapping website that makes that possible, for a fraction of the housing cost. Your new client's next destination? The Yukon. So, she agrees to a swap of her home in Ireland for that of a Canadian who loves the poet, Yeats.
 
 Now what?
 
@@ -49,7 +49,7 @@ Learn how to do common tasks within the service.
 
 * [Add a new host to the service](tutorials/tutorial-add-new-host.md)
 * [Add a new guest for a host](tutorials/tutorial-add-new-guest.md)
-* [Add a task for a host to prepare for a guest](tutorials/tutorial-add-new-task.md)
+* [Add a task to prepare for a guest](tutorials/tutorial-add-new-task.md)
 
 ## API reference docs
 
@@ -69,4 +69,3 @@ generally `http://localhost:3000`.
 ## Contact us
 
 We are here to help. Send us an email at [help@gracioushost.com](gracioushost.com), or call us at (888) 555-2468, Monday - Friday: 9 a.m. - 5 p.m. Eastern.
-
