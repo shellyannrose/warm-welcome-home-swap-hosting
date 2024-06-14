@@ -1,4 +1,4 @@
-# Tutorial: Add a new task for your host to prepare for a guest
+# Tutorial: Add a new task to prepare for a guest
 
  This tutorial explains how to create a new task that a host will do to prepare for a guest.
 
