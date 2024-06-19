@@ -1,10 +1,8 @@
-#
+# ![bed and flower](bedflower.jpg)
 
 **Note** This is a mock API to simulate the REST interface of an imaginary service.
 
- ![bed and flower](bedflower.jpg)
-
-**_Give your guests a welcome to write home about!_**
+## **_Give your guests a welcome to write home about!_**
 
 Your clients are world travelers who want to live like locals when they visit new places. You run a home swapping website that makes that possible, for a fraction of the housing cost. Your new client's next destination? The Yukon. So, she agrees to a swap of her home in Ireland for that of a Canadian who loves the poet, Yeats.
 
