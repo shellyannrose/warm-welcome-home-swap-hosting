@@ -1,6 +1,6 @@
 # Tutorial: Add a new task to prepare for a guest
 
- This tutorial explains how to create a new task that a host will do to prepare for a guest.
+ This tutorial shows you how to create a new task to prepare for a guest. Be sure to [set up](before-you-start-tutorials.md) your system first.
 
 Expect this tutorial to take about 15 minutes to complete.
 

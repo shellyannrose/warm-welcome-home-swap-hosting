@@ -1,6 +1,6 @@
 # Tutorial: Add a new guest for a specific host
 
- In this tutorial, you will learn how to add a guest for a host.
+ In this tutorial, you will learn how to add a guest for a host. Be sure to [set up](before-you-start-tutorials.md) your system first.
 
 Expect this tutorial to take about 15 minutes to complete.
 

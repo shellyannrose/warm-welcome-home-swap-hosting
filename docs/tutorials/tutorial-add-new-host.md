@@ -1,6 +1,6 @@
 # Tutorial: Add a new host to the service
 
- In this tutorial, you will see how easy it is to add a new host.
+ In this tutorial, you will see how easy it is to add a new host. Be sure to [set up](before-you-start-tutorials.md) your system first.
 
 Expect this tutorial to take about 15 minutes to complete.
 
