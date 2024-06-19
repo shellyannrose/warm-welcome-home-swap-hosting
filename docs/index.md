@@ -1,4 +1,8 @@
-# ![bed and flower](bedflower.jpg)
+#
+
+**Note** This is a mock API to simulate the REST interface of an imaginary service.
+
+ ![bed and flower](bedflower.jpg)
 
 **_Give your guests a welcome to write home about!_**
 
