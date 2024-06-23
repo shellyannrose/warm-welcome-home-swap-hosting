@@ -22,7 +22,7 @@ Using spreadsheets or written notes to track this information creates more probl
 
 The Gracious Host makes it easy for hosts to give their guests a warm welcome. It is a cloud-based solution that has an API interface that is simple to use. When you add the Gracious Host to your site, your clients will enjoy the benefits of a service that:
 
-* Simplifies the tracking of dates, times, tasks, and people
+* Simplifies the tracking of dates, times, tasks, and guests
 * Ensures that they are well-prepared for their guests
 * Stores all hosting information in one place
 
