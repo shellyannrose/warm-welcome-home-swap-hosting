@@ -54,7 +54,7 @@ Learn how to do common tasks within the service.
 
 ## API reference docs
 
-Detailed descriptions of the service's resources.
+These list the details of the service's resources.
 
 The API reference docs refer to a `{server_url}` when they
 refer to the URL of a resource. This is synonymous with `{base_url}`. Its value depends
