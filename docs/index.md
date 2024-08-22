@@ -1,6 +1,6 @@
 # ![bed and flower](bedflower.jpg)
 
-**Note** This is a mock API to simulate the REST interface of an imaginary service.
+**Note** This is a mock API to simulate the REST interface of an imaginary service. Writer: [Shellyann Rose](https://www.linkedin.com/in/shellyann-rose-235624/).
 
 ## **_Give your guests a welcome to write home about!_**
 
